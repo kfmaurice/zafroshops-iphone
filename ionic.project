@@ -1,0 +1,9 @@
+{
+  "name": "Zafroshops",
+  "app_id": "",
+  "proxies": [
+  {
+  	"path": "/ms",
+  	"proxyUrl": "http://172.163.154.22:59230/"
+  }]
+}

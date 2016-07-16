@@ -1,0 +1,22 @@
+<ion-view view-title="{{title}}">
+	<ion-nav-buttons side="right">
+		<button class="button button-clear icon-left ion-ios-upload-outline" on-touch="more()"></button>
+	</ion-nav-buttons>
+	<ion-nav-buttons side="left">
+		<button class="button button-clear" ng-click="showSettings()">Settings</button>
+	</ion-nav-buttons>
+	
+  <ion-content>
+		<div class="padding positive" ng-show="all.length == 0">{{loading}}</div>
+		<div ng-show="all.length > 0" class="row" ng-repeat="block in all">
+        <div class="col col-25" ng-repeat="item in block" ui-sref="tab.all-group({typeName: '{{item.type}}'})">
+            <div class="box-container">
+							<div class="box">
+								<img ng-src="img/{{img(item.type)}}.png" />
+							</div>
+						</div>
+						<span class="caption">{{formatType(item.type)}}</span>
+        </div>
+    </div>
+  </ion-content>
+</ion-view>

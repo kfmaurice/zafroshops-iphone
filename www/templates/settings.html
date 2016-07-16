@@ -1,0 +1,23 @@
+<ion-view view-title="{{title}}">
+	<ion-nav-buttons side="left">
+		<button class="button button-clear back" ng-click="back()"><i class="icon-left ion-chevron-left"></i>Back</button>
+	</ion-nav-buttons>
+	
+	<ion-content class="settings">
+	<div class="list">
+		<div class="list list-inset">
+			<div class="item item-divider">Remove Advertising</div>
+			<a class="item item-icon-right" ng-class="{ 'disabled': adsInactive }" ng-click="!adsInactive && purchase()">
+				Purchase
+				<span class="item-note" ng-show="adsInactive">purchased</span>
+			</a>
+			<a class="item" ng-click="restore()">Restore</a>
+		</div>
+
+		<div class="list list-inset">
+			<div class="item item-divider">Location{{data}}</div>
+			<ion-toggle toggle-class="toggle-positive" ng-model="location.useLocation" ng-change="toggleLocation()" ng-disabled="updating">Use My Location</ion-toggle>
+		</div>
+	</ion-content>
+</ion-view>
+

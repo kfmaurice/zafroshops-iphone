@@ -1,0 +1,154 @@
+/* ionic override - start */
+
+/*.item-radio input:checked ~ .item-content*/
+.item-radio div.checked {
+	/* style the item content when its checked */
+	background: #f7f7f7;
+}
+/* ionic override - end */
+
+/*.item-radio input:checked ~ .radio-icon*/
+.item-radio i.checked {
+	/* show the checkmark icon when its checked */
+	visibility: visible;
+}
+
+.row .box-container {
+    position: relative;
+    width: 100%;
+}
+.row .box-container:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+.row .box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+    color: #fff;
+    text-align: center;
+}
+.row .box img {
+	height: 65%;
+
+	margin-top: 20%;
+}
+.row .col {
+    color: #363636;
+    text-align: center;
+}
+.row .col span {
+    position: relative;
+    top: -10px;
+}
+.row span.caption {
+	font-size: 11px;
+}
+
+ion-item p.content {
+	font-size: 75%;
+	line-height: 125%;
+}
+ion-item.typed {
+	position: relative;
+}
+ion-item.typed img {
+	height: 55%;
+	line-height: 10%;
+	position: absolute;
+	top: 20%;
+}
+ion-item span.note {
+	font-size: x-small;
+}
+ion-item span.note span {
+	margin-right: 10px;
+}
+ion-item h2 {
+	color: #363636;
+}
+
+ion-content span.rating {
+	float: right;
+}
+ion-content div.pic {
+	text-align: center;
+}
+ion-content div.pic img {
+	height: 200px;
+/*	width: 100%;*/
+}
+ion-content div.openings span.day {
+	font-weight: bold;
+}
+ion-content div.openings span.hour {
+	font-size: 80%;
+}
+ion-content div.list .right {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: right;
+}
+ion-content.details img.service {
+	height: 20px;
+}
+ion-content.details input.details-new-phone-prefix {
+	width: 50px;
+}
+ion-content.details span.details-rating i {
+	font-size: 32px !important;
+}
+ion-content .no-zops {
+	text-align: center;
+	margin-top: 150px;
+}
+ion-content .no-zops span {
+	width: 100%;
+}
+ion-content .no-zops button {
+	margin-top: 10px;
+}
+ion-content ion-item .zop-img {
+	height: 55%;
+	line-height: 10%;
+	position: absolute;
+	top: 20%;
+}
+
+div.ads-popup {
+	height: 75px;
+}
+div.ads-popup .item {
+	padding-left: 43px;
+}
+div.ads-popup img {
+	width: 27px;
+	height: 27px;
+}
+div.popup-overwrite button {
+	min-width: 20px;
+	-webkit-box-flex: none !important;
+	-webkit-flex: none !important;
+	-moz-box-flex: none !important;
+	-moz-flex: none !important;
+	-ms-flex: none !important;
+	flex: none !important;
+}
+.back i.ion-chevron-left {
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+.settings .disabled {
+	color: #aaa;
+}
+.settings .disabled span, .location-hint .disabled {
+	color: #ccc;
+}

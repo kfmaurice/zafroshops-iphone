@@ -1,0 +1,3744 @@
+[
+  {
+    "name": "Multi Kulti",
+    "location": {
+      "latitude": 49.001625,
+      "longitude": 8.4099899
+    },
+    "countryID": "DE",
+    "city": "Karlsruhe",
+    "street": "Werderstraße",
+    "streetNumber": "73",
+    "phoneNumber": "7219765151",
+    "type": "barberShop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "1",
+    "__deleted": false
+  },
+  {
+    "name": "Afro Hair Beauty Shop",
+    "location": {
+      "latitude": 49.0015228,
+      "longitude": 8.4054285
+    },
+    "countryID": "DE",
+    "city": "Karlsruhe",
+    "street": "Wilhelmstraße",
+    "streetNumber": "34",
+    "type": "shop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 2,
+        "service": "barberShop",
+        "id": "1",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "2",
+    "__deleted": false
+  },
+  {
+    "name": "Chez Bariatou",
+    "location": {
+      "latitude": 49.01097,
+      "longitude": 8.36894
+    },
+    "countryID": "DE",
+    "city": "Karlsruhe",
+    "street": "Kaiserallee",
+    "streetNumber": "113",
+    "phoneNumber": "7217228353",
+    "type": "barberShop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "3",
+    "__deleted": false
+  },
+  {
+    "name": "Afroshop Moko",
+    "location": {
+      "latitude": 48.7869986,
+      "longitude": 9.1933027
+    },
+    "countryID": "DE",
+    "city": "Stuttgart",
+    "street": "Staffelstraße",
+    "streetNumber": "5",
+    "phoneNumber": "7112200680",
+    "type": "shop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "4",
+    "__deleted": false
+  },
+  {
+    "name": "Hüda Verdi",
+    "location": {
+      "latitude": 49.5040399,
+      "longitude": 8.4740174
+    },
+    "countryID": "DE",
+    "city": "Mannheim",
+    "street": "Maybachstr",
+    "streetNumber": "24",
+    "phoneNumber": "621376272",
+    "type": "shop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "5",
+    "__deleted": false
+  },
+  {
+    "name": "Pak Enterprises",
+    "location": {
+      "latitude": 49.4903356,
+      "longitude": 8.4698907
+    },
+    "countryID": "DE",
+    "city": "Mannheim",
+    "street": "T2",
+    "streetNumber": "1",
+    "phoneNumber": "62110996",
+    "type": "shop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "6",
+    "__deleted": false
+  },
+  {
+    "name": "S J Enterprises",
+    "location": {
+      "latitude": 49.4902897,
+      "longitude": 8.469509
+    },
+    "countryID": "DE",
+    "city": "Mannheim",
+    "street": "S1",
+    "streetNumber": "11",
+    "phoneNumber": "62186243212",
+    "type": "shop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "7",
+    "__deleted": false
+  },
+  {
+    "name": "Afrikiko",
+    "location": {
+      "latitude": 48.76607,
+      "longitude": 9.1709
+    },
+    "countryID": "DE",
+    "city": "Stuttgart",
+    "street": "Hauptsätter Straße",
+    "streetNumber": "133",
+    "phoneNumber": "7116207430",
+    "type": "shop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "8",
+    "__deleted": false
+  },
+  {
+    "name": "Sis Jud",
+    "location": {
+      "latitude": 48.7728,
+      "longitude": 9.15672
+    },
+    "countryID": "DE",
+    "city": "Stuttgart",
+    "street": "Schwabstrasse",
+    "streetNumber": "44",
+    "phoneNumber": "71167418797",
+    "type": "barberShop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 9,
+        "service": "cosmetics",
+        "id": "2",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "9",
+    "__deleted": false
+  },
+  {
+    "name": "Imo Hair ",
+    "location": {
+      "latitude": 48.16467,
+      "longitude": 11.58705
+    },
+    "countryID": "DE",
+    "city": "München",
+    "street": "Leopoldstrasse",
+    "streetNumber": "96",
+    "phoneNumber": "8933088958",
+    "type": "cosmetics",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "10",
+    "__deleted": false
+  },
+  {
+    "name": "Binam",
+    "location": {
+      "latitude": 48.1236073,
+      "longitude": 11.5469657
+    },
+    "countryID": "DE",
+    "city": "München",
+    "street": "Lindwurmstraße",
+    "streetNumber": "92",
+    "phoneNumber": "8972013876",
+    "type": "shop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "11",
+    "__deleted": false
+  },
+  {
+    "name": "Urembo",
+    "location": {
+      "latitude": 48.1458176,
+      "longitude": 11.4664047
+    },
+    "countryID": "DE",
+    "city": "München",
+    "street": "Landsbergerstraße",
+    "streetNumber": "483",
+    "phoneNumber": "15779591307",
+    "type": "cosmetics",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "12",
+    "__deleted": false
+  },
+  {
+    "name": "Rasta Studio und Afroshop",
+    "location": {
+      "latitude": 48.002635,
+      "longitude": 7.8399778
+    },
+    "countryID": "DE",
+    "city": "Freiburg",
+    "street": "Hohenzollernstraße",
+    "streetNumber": "11",
+    "phoneNumber": "76649209833",
+    "type": "bar",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 13,
+        "service": "barberShop",
+        "id": "3",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "13",
+    "__deleted": false
+  },
+  {
+    "name": "Afrostylez 74",
+    "location": {
+      "latitude": 52.4753773,
+      "longitude": 13.4523741
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Sonnenallee",
+    "streetNumber": "194",
+    "phoneNumber": "3037443633",
+    "type": "cosmetics",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "14",
+    "__deleted": false
+  },
+  {
+    "name": "Miss Chic",
+    "location": {
+      "latitude": 53.0927786,
+      "longitude": 8.789482
+    },
+    "countryID": "DE",
+    "city": "Bremen",
+    "street": "Wartburgstraße",
+    "streetNumber": "24",
+    "phoneNumber": "4216952401",
+    "type": "barberShop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 15,
+        "service": "cosmetics",
+        "id": "4",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "15",
+    "__deleted": false
+  },
+  {
+    "name": "HairPolice",
+    "location": {
+      "latitude": 53.5551,
+      "longitude": 10.01154
+    },
+    "countryID": "DE",
+    "city": "Hamburg",
+    "street": "Hansaplatz",
+    "streetNumber": "9",
+    "phoneNumber": "4028669831",
+    "type": "cosmetics",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "16",
+    "__deleted": false
+  },
+  {
+    "name": "Egepicom",
+    "location": {
+      "latitude": 50.5576146,
+      "longitude": 8.4970049
+    },
+    "countryID": "DE",
+    "city": "Wetzlar",
+    "street": "Karl-Kellner-Ring",
+    "streetNumber": "21",
+    "phoneNumber": "64414445420",
+    "type": "shop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 17,
+        "service": "cosmetics",
+        "id": "5",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "17",
+    "__deleted": false
+  },
+  {
+    "name": "Akwa Bell Salon",
+    "location": {
+      "latitude": 52.02249,
+      "longitude": 8.5401
+    },
+    "countryID": "DE",
+    "city": "Bielefeld",
+    "street": "August-Bebel-Straße",
+    "streetNumber": "101",
+    "phoneNumber": "5217709438",
+    "type": "shop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 18,
+        "service": "barberShop",
+        "id": "6",
+        "__deleted": false
+      },
+      {
+        "zopID": 18,
+        "service": "cosmetics",
+        "id": "7",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "18",
+    "__deleted": false
+  },
+  {
+    "name": "Royal Beauty Studio",
+    "location": {
+      "latitude": 51.5166441,
+      "longitude": 7.4656081
+    },
+    "countryID": "DE",
+    "city": "Dortmund",
+    "street": "Bräckstraße",
+    "streetNumber": "37",
+    "phoneNumber": "2312065823",
+    "type": "barberShop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 19,
+        "service": "cosmetics",
+        "id": "8",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "19",
+    "__deleted": false
+  },
+  {
+    "name": "Afro Beauty Shop",
+    "location": {
+      "latitude": 51.4531888,
+      "longitude": 7.0140121
+    },
+    "countryID": "DE",
+    "city": "Essen",
+    "street": "Am Handelshof",
+    "streetNumber": "1",
+    "phoneNumber": "201239182",
+    "type": "barberShop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 20,
+        "service": "cosmetics",
+        "id": "9",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "20",
+    "__deleted": false
+  },
+  {
+    "name": "Black Perl",
+    "location": {
+      "latitude": 50.9335889,
+      "longitude": 6.956452
+    },
+    "countryID": "DE",
+    "city": "Köln",
+    "street": "Hohe Pforte",
+    "streetNumber": "4-6",
+    "phoneNumber": "22160606306",
+    "type": "barberShop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 21,
+        "service": "cosmetics",
+        "id": "10",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "21",
+    "__deleted": false
+  },
+  {
+    "name": "Zeebra Tropicana",
+    "location": {
+      "latitude": 50.9353726,
+      "longitude": 6.9358045
+    },
+    "countryID": "DE",
+    "city": "Köln",
+    "street": "Richard-Wagner-Straße",
+    "streetNumber": "29",
+    "phoneNumber": "221235280",
+    "type": "barberShop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 22,
+        "service": "cosmetics",
+        "id": "11",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "22",
+    "__deleted": false
+  },
+  {
+    "name": "Lydies Hair & Beauty Shop",
+    "location": {
+      "latitude": 51.7200033,
+      "longitude": 8.760481
+    },
+    "countryID": "DE",
+    "city": "Paderborn",
+    "street": "Giersstraße",
+    "streetNumber": "22",
+    "phoneNumber": "52518745744",
+    "type": "barberShop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 23,
+        "service": "cosmetics",
+        "id": "12",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "23",
+    "__deleted": false
+  },
+  {
+    "name": "Gyenyame",
+    "location": {
+      "latitude": 51.7220692,
+      "longitude": 8.7431293
+    },
+    "countryID": "DE",
+    "city": "Paderborn",
+    "street": "Neuhäuserstraße",
+    "streetNumber": "43",
+    "phoneNumber": "5251296963",
+    "type": "barberShop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 24,
+        "service": "cosmetics",
+        "id": "13",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "24",
+    "__deleted": false
+  },
+  {
+    "name": "Afro Belle Tresse",
+    "location": {
+      "latitude": 51.3373417,
+      "longitude": 12.3860458
+    },
+    "countryID": "DE",
+    "city": "Leipzig",
+    "street": "Johannisplatz",
+    "streetNumber": "18",
+    "phoneNumber": "3412246753",
+    "type": "barberShop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 25,
+        "service": "cosmetics",
+        "id": "14",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "25",
+    "__deleted": false
+  },
+  {
+    "name": "Afro American Beauty Center",
+    "location": {
+      "latitude": 51.3466867,
+      "longitude": 12.3782602
+    },
+    "countryID": "DE",
+    "city": "Leipzig",
+    "street": "Kurt-Schumacher-Straße",
+    "streetNumber": "19",
+    "phoneNumber": "3412689910",
+    "type": "barberShop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 26,
+        "service": "cosmetics",
+        "id": "15",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "26",
+    "__deleted": false
+  },
+  {
+    "name": "Afro-American Beauty Salon",
+    "location": {
+      "latitude": 50.90096,
+      "longitude": 11.56766
+    },
+    "countryID": "DE",
+    "city": "Jena",
+    "street": "Im Planer",
+    "streetNumber": "34",
+    "phoneNumber": "3641296706",
+    "type": "barberShop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 27,
+        "service": "cosmetics",
+        "id": "16",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "27",
+    "__deleted": false
+  },
+  {
+    "name": "Boostylez",
+    "location": {
+      "latitude": 50.85274,
+      "longitude": 10.88216
+    },
+    "countryID": "DE",
+    "city": "Holzhausen",
+    "street": "Straße der Einheit",
+    "streetNumber": "101",
+    "phoneNumber": "3628585835",
+    "type": "cosmetics",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "28",
+    "__deleted": false
+  },
+  {
+    "name": "Asmara",
+    "location": {
+      "latitude": 49.010203,
+      "longitude": 8.3854212
+    },
+    "countryID": "DE",
+    "city": "Karlsruhe",
+    "street": "Kaiserallee",
+    "streetNumber": "9",
+    "phoneNumber": "7212049828",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "29",
+    "__deleted": false
+  },
+  {
+    "name": "Kandalhof",
+    "location": {
+      "latitude": 48.0079664,
+      "longitude": 7.850162
+    },
+    "countryID": "DE",
+    "city": "Freiburg",
+    "street": "Kandelstrasse",
+    "streetNumber": "27",
+    "phoneNumber": "7612925577",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 30,
+        "service": "catering",
+        "id": "17",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "30",
+    "__deleted": false
+  },
+  {
+    "name": "Le Tagine Maghrebinisch-mediterrane Spezialitäten",
+    "location": {
+      "latitude": 49.3813284,
+      "longitude": 8.6894386
+    },
+    "countryID": "DE",
+    "city": "Heidelberg",
+    "street": "Karlsruherstraße",
+    "streetNumber": "74",
+    "phoneNumber": "62213395888",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "31",
+    "__deleted": false
+  },
+  {
+    "name": "Abessinien",
+    "location": {
+      "latitude": 49.41156,
+      "longitude": 8.71073
+    },
+    "countryID": "DE",
+    "city": "Heidelberg",
+    "street": "Mittelbadgasse",
+    "streetNumber": "3",
+    "phoneNumber": "62218935660",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "32",
+    "__deleted": false
+  },
+  {
+    "name": "Michou",
+    "location": {
+      "latitude": 49.0099862,
+      "longitude": 8.4204288
+    },
+    "countryID": "DE",
+    "city": "Karlsruhe",
+    "street": "Karl-Wilhelm-Straße",
+    "streetNumber": "8",
+    "phoneNumber": "16099636651",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "33",
+    "__deleted": false
+  },
+  {
+    "name": "Mogogo",
+    "location": {
+      "latitude": 49.0127254,
+      "longitude": 8.3980886
+    },
+    "countryID": "DE",
+    "city": "Karlsruhe",
+    "street": "Stephanienstraße",
+    "streetNumber": "2a",
+    "phoneNumber": "7211208000",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "34",
+    "__deleted": false
+  },
+  {
+    "name": "Madiba Afrika",
+    "location": {
+      "latitude": 49.99872,
+      "longitude": 8.27709
+    },
+    "countryID": "DE",
+    "city": "Mainz",
+    "street": "Heugasse",
+    "streetNumber": "6",
+    "phoneNumber": "61313045125",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 35,
+        "service": "bar",
+        "id": "18",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "35",
+    "__deleted": false
+  },
+  {
+    "name": "Little Afrika",
+    "location": {
+      "latitude": 49.34699,
+      "longitude": 9.10456
+    },
+    "countryID": "DE",
+    "city": "Mosbach",
+    "street": "Heidelbergerstraße",
+    "streetNumber": "51",
+    "phoneNumber": "62619361841",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 36,
+        "service": "bar",
+        "id": "19",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "36",
+    "__deleted": false
+  },
+  {
+    "name": "African Safari",
+    "location": {
+      "latitude": 49.0093716,
+      "longitude": 8.3915255
+    },
+    "countryID": "DE",
+    "city": "Karlsruhe",
+    "street": "Hirschstrasse",
+    "streetNumber": "18",
+    "phoneNumber": "72129175",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "37",
+    "__deleted": false
+  },
+  {
+    "name": "Königin von Saba",
+    "location": {
+      "latitude": 49.0030883,
+      "longitude": 8.4079132
+    },
+    "countryID": "DE",
+    "city": "Karlsruhe",
+    "street": "Marienstra8e",
+    "streetNumber": "18",
+    "phoneNumber": "7213844232",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "38",
+    "__deleted": false
+  },
+  {
+    "name": "Afrika",
+    "location": {
+      "latitude": 48.70342,
+      "longitude": 9.65017
+    },
+    "countryID": "DE",
+    "city": "Göppingen",
+    "street": "Schloßstraße",
+    "streetNumber": "10",
+    "phoneNumber": "71616599271",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "39",
+    "__deleted": false
+  },
+  {
+    "name": "Afrika",
+    "location": {
+      "latitude": 48.8969453,
+      "longitude": 8.701756
+    },
+    "countryID": "DE",
+    "city": "Pforzheim",
+    "street": "Zähringerallee",
+    "streetNumber": "41",
+    "phoneNumber": "72314248255",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "40",
+    "__deleted": false
+  },
+  {
+    "name": "Adulis",
+    "location": {
+      "latitude": 48.7751064,
+      "longitude": 9.1769661
+    },
+    "countryID": "DE",
+    "city": "Stuttgart",
+    "street": "Hirschstraße",
+    "streetNumber": "14",
+    "phoneNumber": "7112847785",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 41,
+        "service": "bar",
+        "id": "20",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "41",
+    "__deleted": false
+  },
+  {
+    "name": "Tajine",
+    "location": {
+      "latitude": 48.7825,
+      "longitude": 9.17015
+    },
+    "countryID": "DE",
+    "city": "Stuttgart",
+    "street": "Hegelplatz",
+    "streetNumber": "1",
+    "phoneNumber": "7112022502",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "42",
+    "__deleted": false
+  },
+  {
+    "name": "Semhar",
+    "location": {
+      "latitude": 48.768902,
+      "longitude": 9.174673
+    },
+    "countryID": "DE",
+    "city": "Stuttgart",
+    "street": "Immenhoferstraße",
+    "streetNumber": "2",
+    "phoneNumber": "7116408508",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "43",
+    "__deleted": false
+  },
+  {
+    "name": "Langano",
+    "location": {
+      "latitude": 52.4965439,
+      "longitude": 13.4183262
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Kohlfurterstraße",
+    "streetNumber": "44",
+    "phoneNumber": "3061507103",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "44",
+    "__deleted": false
+  },
+  {
+    "name": "Jambo Bwana",
+    "location": {
+      "latitude": 48.77062,
+      "longitude": 9.17885
+    },
+    "countryID": "DE",
+    "city": "Stuttgart",
+    "street": "Bopserstrasse",
+    "streetNumber": "1",
+    "phoneNumber": "7114103075",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 45,
+        "service": "bar",
+        "id": "21",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "45",
+    "__deleted": false
+  },
+  {
+    "name": "INJERA",
+    "location": {
+      "latitude": 50.9323996,
+      "longitude": 6.9331639
+    },
+    "countryID": "DE",
+    "city": "Köln",
+    "street": "Lindenstrasse",
+    "streetNumber": "86",
+    "phoneNumber": "2219984942",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "46",
+    "__deleted": false
+  },
+  {
+    "name": "Makamba",
+    "location": {
+      "latitude": 48.76987,
+      "longitude": 9.17689
+    },
+    "countryID": "DE",
+    "city": "Stuttgart",
+    "street": "Schlosserstraße",
+    "streetNumber": "16",
+    "phoneNumber": "7116400754",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "47",
+    "__deleted": false
+  },
+  {
+    "name": "Keren",
+    "location": {
+      "latitude": 48.7843648,
+      "longitude": 9.1903495
+    },
+    "countryID": "DE",
+    "city": "Stuttgart",
+    "street": "Kernerstraße",
+    "streetNumber": "17",
+    "phoneNumber": "711264665",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "48",
+    "__deleted": false
+  },
+  {
+    "name": "Cafunfu",
+    "location": {
+      "latitude": 48.7697969,
+      "longitude": 9.1864453
+    },
+    "countryID": "DE",
+    "city": "Stuttgart",
+    "street": "Hohenheimerstraße",
+    "streetNumber": "53",
+    "phoneNumber": "7115532704",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "49",
+    "__deleted": false
+  },
+  {
+    "name": "Ambiente Africa",
+    "location": {
+      "latitude": 48.777764,
+      "longitude": 9.1882654
+    },
+    "countryID": "DE",
+    "city": "Stuttgart",
+    "street": "Werastraße",
+    "streetNumber": "1",
+    "phoneNumber": "7112365511",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "50",
+    "__deleted": false
+  },
+  {
+    "name": "De Peak",
+    "location": {
+      "latitude": 48.78025,
+      "longitude": 9.20629
+    },
+    "countryID": "DE",
+    "city": "Stuttgart",
+    "street": "Pflasteräckerstrasse",
+    "streetNumber": "12",
+    "phoneNumber": "711523040",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "51",
+    "__deleted": false
+  },
+  {
+    "name": "Äquator",
+    "location": {
+      "latitude": 48.8023703,
+      "longitude": 9.2224613
+    },
+    "countryID": "DE",
+    "city": "Stuttgart",
+    "street": "Kreuznacherstraße",
+    "streetNumber": "57",
+    "phoneNumber": "7115920137",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "52",
+    "__deleted": false
+  },
+  {
+    "name": "Desiet",
+    "location": {
+      "latitude": 48.8023722,
+      "longitude": 9.2201117
+    },
+    "countryID": "DE",
+    "city": "Stuttgart",
+    "street": "Daimlerstraße",
+    "streetNumber": "63",
+    "phoneNumber": "71151882702",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "53",
+    "__deleted": false
+  },
+  {
+    "name": "Kilimanjaro",
+    "location": {
+      "latitude": 49.413,
+      "longitude": 8.70764
+    },
+    "countryID": "DE",
+    "city": "Heidelberg",
+    "street": "Dreikönigstraße",
+    "streetNumber": "6",
+    "phoneNumber": "62217293939",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "54",
+    "__deleted": false
+  },
+  {
+    "name": "Kilimanjaro",
+    "location": {
+      "latitude": 50.1070521,
+      "longitude": 8.6566185
+    },
+    "countryID": "DE",
+    "city": "Frankfurt",
+    "street": "Hafenstraße",
+    "streetNumber": "52",
+    "phoneNumber": "6990021991",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "55",
+    "__deleted": false
+  },
+  {
+    "name": "Arabesque",
+    "location": {
+      "latitude": 52.2737594,
+      "longitude": 8.0439666
+    },
+    "countryID": "DE",
+    "city": "Osnabrück",
+    "street": "Osterberger Reihe",
+    "streetNumber": "12",
+    "phoneNumber": "541260363",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 56,
+        "service": "cafe",
+        "id": "22",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "56",
+    "__deleted": false
+  },
+  {
+    "name": "Arabesque",
+    "location": {
+      "latitude": 51.4428636,
+      "longitude": 7.0171683
+    },
+    "countryID": "DE",
+    "city": "Essen",
+    "street": "Rellinghauserstraße",
+    "streetNumber": "117",
+    "phoneNumber": "2018228822",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "57",
+    "__deleted": false
+  },
+  {
+    "name": "Harambe",
+    "location": {
+      "latitude": 48.74084,
+      "longitude": 9.15356
+    },
+    "countryID": "DE",
+    "city": "Stuttgart",
+    "street": "Rembrandtstraße",
+    "streetNumber": "190",
+    "phoneNumber": "7117652342",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 58,
+        "service": "bar",
+        "id": "23",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "58",
+    "__deleted": false
+  },
+  {
+    "name": "Horn of Africa",
+    "location": {
+      "latitude": 49.4087067,
+      "longitude": 8.674202
+    },
+    "countryID": "DE",
+    "city": "Heidelberg",
+    "street": "Vangerowstrasse",
+    "streetNumber": "37",
+    "phoneNumber": "62217270960",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "59",
+    "__deleted": false
+  },
+  {
+    "name": "Ebony",
+    "location": {
+      "latitude": 48.77387,
+      "longitude": 9.16765
+    },
+    "countryID": "DE",
+    "city": "Stuttgart",
+    "street": "Herzogstraße",
+    "streetNumber": "11",
+    "phoneNumber": "711625834",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "60",
+    "__deleted": false
+  },
+  {
+    "name": "Little Africa",
+    "location": {
+      "latitude": 48.15047,
+      "longitude": 11.55722
+    },
+    "countryID": "DE",
+    "city": "München",
+    "street": "Sandstraße",
+    "streetNumber": "45",
+    "phoneNumber": "8957952621",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "61",
+    "__deleted": false
+  },
+  {
+    "name": "Alhambra",
+    "location": {
+      "latitude": 48.1372278,
+      "longitude": 11.5626004
+    },
+    "countryID": "DE",
+    "city": "München",
+    "street": "Schwanthalerstraße",
+    "streetNumber": "13",
+    "phoneNumber": "8954881741",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "62",
+    "__deleted": false
+  },
+  {
+    "name": "Africa Savanne",
+    "location": {
+      "latitude": 48.14119,
+      "longitude": 11.51825
+    },
+    "countryID": "DE",
+    "city": "München",
+    "street": "Elsenheimerstraße",
+    "streetNumber": "2",
+    "phoneNumber": "1738551986",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "63",
+    "__deleted": false
+  },
+  {
+    "name": "Blue Nile",
+    "location": {
+      "latitude": 48.1605526,
+      "longitude": 11.5882461
+    },
+    "countryID": "DE",
+    "city": "München",
+    "street": "Siegesstraße",
+    "streetNumber": "22a",
+    "phoneNumber": "89342389",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "64",
+    "__deleted": false
+  },
+  {
+    "name": "Blue Nile",
+    "location": {
+      "latitude": 48.16202,
+      "longitude": 11.5748627
+    },
+    "countryID": "DE",
+    "city": "München",
+    "street": "Victor-Scheffler-Straße",
+    "streetNumber": "22",
+    "phoneNumber": "8933039987",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "65",
+    "__deleted": false
+  },
+  {
+    "name": "Marrakech",
+    "location": {
+      "latitude": 48.1636678,
+      "longitude": 11.5833291
+    },
+    "countryID": "DE",
+    "city": "München",
+    "street": "Clemensstrasse",
+    "streetNumber": "14",
+    "phoneNumber": "8935663836",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "66",
+    "__deleted": false
+  },
+  {
+    "name": "Lassavane Club",
+    "location": {
+      "latitude": 48.16192,
+      "longitude": 11.58159
+    },
+    "countryID": "DE",
+    "city": "München",
+    "street": "Kaiserplatz",
+    "streetNumber": "4",
+    "phoneNumber": "89331861",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "67",
+    "__deleted": false
+  },
+  {
+    "name": "Shashamane",
+    "location": {
+      "latitude": 49.4484185,
+      "longitude": 11.0856739
+    },
+    "countryID": "DE",
+    "city": "Nürnberg",
+    "street": "Willy-Brandt-Platz",
+    "streetNumber": "4",
+    "phoneNumber": "91149036044",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 68,
+        "service": "bar",
+        "id": "24",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "68",
+    "__deleted": false
+  },
+  {
+    "name": "Konji",
+    "location": {
+      "latitude": 49.4368127,
+      "longitude": 11.092803
+    },
+    "countryID": "DE",
+    "city": "Nürnberg",
+    "street": "Wodanstrasse",
+    "streetNumber": "13",
+    "phoneNumber": "9114742668",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "69",
+    "__deleted": false
+  },
+  {
+    "name": "Pan Africa Catering",
+    "location": {
+      "latitude": 52.48363,
+      "longitude": 13.42717
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Mainzerstraße",
+    "streetNumber": "8",
+    "phoneNumber": "3022809218",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "70",
+    "__deleted": false
+  },
+  {
+    "name": "Palme",
+    "location": {
+      "latitude": 52.4853154,
+      "longitude": 13.3611933
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Leberstraße",
+    "streetNumber": "8",
+    "phoneNumber": "3078006466",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "71",
+    "__deleted": false
+  },
+  {
+    "name": "Savanna",
+    "location": {
+      "latitude": 52.53802,
+      "longitude": 13.41462
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Sredzkistraße",
+    "streetNumber": "16",
+    "phoneNumber": "3044318621",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "72",
+    "__deleted": false
+  },
+  {
+    "name": "Club Lumumba",
+    "location": {
+      "latitude": 52.54411,
+      "longitude": 13.36915
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Reinickendorferstraße",
+    "streetNumber": "111",
+    "phoneNumber": "1626574627",
+    "type": "nightClub",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "73",
+    "__deleted": false
+  },
+  {
+    "name": "Savanna",
+    "location": {
+      "latitude": 50.11789,
+      "longitude": 8.68553
+    },
+    "countryID": "DE",
+    "city": "Frankfurt",
+    "street": "Alte Gasse",
+    "streetNumber": "69",
+    "phoneNumber": "6921998786",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "74",
+    "__deleted": false
+  },
+  {
+    "name": "Baobab",
+    "location": {
+      "latitude": 49.879802,
+      "longitude": 8.6591161
+    },
+    "countryID": "DE",
+    "city": "Darmstadt",
+    "street": "Wenckstraße",
+    "streetNumber": "1",
+    "phoneNumber": "61519814603",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 75,
+        "service": "bar",
+        "id": "25",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "75",
+    "__deleted": false
+  },
+  {
+    "name": "KoKeBe",
+    "location": {
+      "latitude": 52.535318,
+      "longitude": 13.3992802
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Anklamerstraße",
+    "streetNumber": "38",
+    "phoneNumber": "3048493578",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "76",
+    "__deleted": false
+  },
+  {
+    "name": "Bantu Cocktailbar",
+    "location": {
+      "latitude": 52.5330602,
+      "longitude": 13.398519
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Brunnenstraße",
+    "streetNumber": "172",
+    "type": "bar",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "77",
+    "__deleted": false
+  },
+  {
+    "name": "Sudanesischer Imbiss NIL",
+    "location": {
+      "latitude": 52.5118678,
+      "longitude": 13.4554976
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Grünberger Straße",
+    "streetNumber": "52",
+    "phoneNumber": "3029047713",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "78",
+    "__deleted": false
+  },
+  {
+    "name": "Sudanesischer Imbiss NIL",
+    "location": {
+      "latitude": 52.49987,
+      "longitude": 13.4405
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Opelnerstraße",
+    "streetNumber": "4-5",
+    "phoneNumber": "3048816414",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "79",
+    "__deleted": false
+  },
+  {
+    "name": "Sudanesischer Imbiss NIL",
+    "location": {
+      "latitude": 52.5125968,
+      "longitude": 13.4583598
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Boxhagener Straße",
+    "streetNumber": "27",
+    "phoneNumber": "17624851006",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "80",
+    "__deleted": false
+  },
+  {
+    "name": "Abyssinia - Teff",
+    "location": {
+      "latitude": 48.1602047,
+      "longitude": 11.5460292
+    },
+    "countryID": "DE",
+    "city": "München",
+    "street": "Dachauer Straße",
+    "streetNumber": "189",
+    "phoneNumber": "15111772888",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "81",
+    "__deleted": false
+  },
+  {
+    "name": "Abyssinia",
+    "location": {
+      "latitude": 52.53712,
+      "longitude": 13.41068
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Chorinerstraße",
+    "streetNumber": "45",
+    "phoneNumber": "3034331734",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "82",
+    "__deleted": false
+  },
+  {
+    "name": "Lucy Abyssinia",
+    "location": {
+      "latitude": 51.2284134,
+      "longitude": 6.8012628
+    },
+    "countryID": "DE",
+    "city": "Düsseldorf",
+    "street": "Lindenstraße",
+    "streetNumber": "69",
+    "phoneNumber": "21120066744",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "83",
+    "__deleted": false
+  },
+  {
+    "name": "The Chop Bar",
+    "location": {
+      "latitude": 52.5455069,
+      "longitude": 13.4171633
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Pappelallee",
+    "streetNumber": "29",
+    "phoneNumber": "3044036276",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "84",
+    "__deleted": false
+  },
+  {
+    "name": "Arada",
+    "location": {
+      "latitude": 52.54125,
+      "longitude": 13.41527
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Lychener Straße",
+    "streetNumber": "4",
+    "phoneNumber": "3044056888",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "85",
+    "__deleted": false
+  },
+  {
+    "name": "Massai",
+    "location": {
+      "latitude": 52.5410406,
+      "longitude": 13.4148786
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Lychener Straße",
+    "streetNumber": "2",
+    "phoneNumber": "3048625595",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "86",
+    "__deleted": false
+  },
+  {
+    "name": "Nubia",
+    "location": {
+      "latitude": 52.52439,
+      "longitude": 13.33149
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Alt-Moabit",
+    "streetNumber": "46",
+    "phoneNumber": "30398850579",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "87",
+    "__deleted": false
+  },
+  {
+    "name": "South Africa",
+    "location": {
+      "latitude": 52.50025,
+      "longitude": 13.30596
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Kurfürstendamm",
+    "streetNumber": "72",
+    "phoneNumber": "3032707055",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "88",
+    "__deleted": false
+  },
+  {
+    "name": "La Calebasse",
+    "location": {
+      "latitude": 52.49169,
+      "longitude": 13.37818
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Yorckstraße",
+    "streetNumber": "62",
+    "phoneNumber": "3081494991",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 89,
+        "service": "bar",
+        "id": "26",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "89",
+    "__deleted": false
+  },
+  {
+    "name": "Lalibela",
+    "location": {
+      "latitude": 52.48948,
+      "longitude": 13.3169
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Wegenerstraße",
+    "streetNumber": "6",
+    "phoneNumber": "3086396806",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "90",
+    "__deleted": false
+  },
+  {
+    "name": "Phenix",
+    "location": {
+      "latitude": 52.4898907,
+      "longitude": 13.348769
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Eisenacher Straße",
+    "streetNumber": "40",
+    "phoneNumber": "302133684",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "91",
+    "__deleted": false
+  },
+  {
+    "name": "Bejte",
+    "location": {
+      "latitude": 52.43026,
+      "longitude": 13.3375
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Zietenstraße",
+    "streetNumber": "8",
+    "phoneNumber": "302625933",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 92,
+        "service": "cafe",
+        "id": "27",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "92",
+    "__deleted": false
+  },
+  {
+    "name": "Asmarino",
+    "location": {
+      "latitude": 52.48974,
+      "longitude": 13.35462
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Grunewaldstraße",
+    "streetNumber": "82",
+    "phoneNumber": "307827282",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "93",
+    "__deleted": false
+  },
+  {
+    "name": "Roots Bar",
+    "location": {
+      "latitude": 52.5023819,
+      "longitude": 13.3379778
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Nürnberger Straße",
+    "streetNumber": "17",
+    "phoneNumber": "3021968244",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "94",
+    "__deleted": false
+  },
+  {
+    "name": "Blue Nile",
+    "location": {
+      "latitude": 52.49776,
+      "longitude": 13.3872
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Tempelhofer Ufer",
+    "streetNumber": "6",
+    "phoneNumber": "3025294655",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "95",
+    "__deleted": false
+  },
+  {
+    "name": "Lagos Club Berlin",
+    "location": {
+      "latitude": 52.49494,
+      "longitude": 13.3801
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Möckernstraße",
+    "streetNumber": "103",
+    "phoneNumber": "3062733999",
+    "type": "nightClub",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "96",
+    "__deleted": false
+  },
+  {
+    "name": "Mandingo",
+    "location": {
+      "latitude": 52.48717,
+      "longitude": 13.38628
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Mehringdamm",
+    "streetNumber": "107",
+    "phoneNumber": "60864561",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "97",
+    "__deleted": false
+  },
+  {
+    "name": "Tam-Tam",
+    "location": {
+      "latitude": 52.4960741,
+      "longitude": 13.4351304
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Wienerstraße",
+    "streetNumber": "34",
+    "phoneNumber": "3061621714",
+    "type": "nightClub",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "98",
+    "__deleted": false
+  },
+  {
+    "name": "Mandela's Freedom-Music-Cafe",
+    "location": {
+      "latitude": 52.4969,
+      "longitude": 13.43204
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Ohlauerstraße",
+    "streetNumber": "3",
+    "type": "cafe",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "99",
+    "__deleted": false
+  },
+  {
+    "name": "Yaam Area",
+    "location": {
+      "latitude": 52.4970479,
+      "longitude": 13.4525442
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Eichenstraße",
+    "streetNumber": "4",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "100",
+    "__deleted": false
+  },
+  {
+    "name": "Relais De Savanne",
+    "location": {
+      "latitude": 52.55788,
+      "longitude": 13.38612
+    },
+    "countryID": "DE",
+    "city": "Berlin",
+    "street": "Prinzenallee",
+    "streetNumber": "33",
+    "phoneNumber": "3031519364",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "101",
+    "__deleted": false
+  },
+  {
+    "name": "Christys West",
+    "location": {
+      "latitude": 53.0792962,
+      "longitude": 8.8016937
+    },
+    "countryID": "DE",
+    "city": "Bremen",
+    "street": "Street",
+    "streetNumber": "StreetNumber",
+    "phoneNumber": "4211638086",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "102",
+    "__deleted": false
+  },
+  {
+    "name": "Lady Tee's",
+    "location": {
+      "latitude": 53.5395845,
+      "longitude": 8.5809424
+    },
+    "countryID": "DE",
+    "city": "Bremerhaven",
+    "street": "Hankenstraße",
+    "streetNumber": "27",
+    "phoneNumber": "471414285",
+    "type": "nightClub",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "103",
+    "__deleted": false
+  },
+  {
+    "name": "Adeola",
+    "location": {
+      "latitude": 53.56686,
+      "longitude": 10.03994
+    },
+    "countryID": "DE",
+    "city": "Hamburg",
+    "street": "Wandsbeker Chaussee",
+    "streetNumber": "47",
+    "phoneNumber": "4036193799",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "104",
+    "__deleted": false
+  },
+  {
+    "name": "Shalom",
+    "location": {
+      "latitude": 53.5871713,
+      "longitude": 10.0475508
+    },
+    "countryID": "DE",
+    "city": "Hamburg",
+    "street": "Pestalozzistraße",
+    "streetNumber": "22",
+    "phoneNumber": "4061137961",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "105",
+    "__deleted": false
+  },
+  {
+    "name": "Ethio",
+    "location": {
+      "latitude": 53.5679601,
+      "longitude": 9.9799028
+    },
+    "countryID": "DE",
+    "city": "Hamburg",
+    "street": "Grindelallee",
+    "streetNumber": "91",
+    "phoneNumber": "4041351437",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 106,
+        "service": "bar",
+        "id": "28",
+        "__deleted": false
+      },
+      {
+        "zopID": 106,
+        "service": "nightClub",
+        "id": "29",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "106",
+    "__deleted": false
+  },
+  {
+    "name": "Marrakech",
+    "location": {
+      "latitude": 53.55029,
+      "longitude": 9.92719
+    },
+    "countryID": "DE",
+    "city": "Hamburg",
+    "street": "Eulenstraße",
+    "streetNumber": "38",
+    "phoneNumber": "4057145301",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "107",
+    "__deleted": false
+  },
+  {
+    "name": "New Africa",
+    "location": {
+      "latitude": 53.54712,
+      "longitude": 9.93662
+    },
+    "countryID": "DE",
+    "city": "Hamburg",
+    "street": "Max-Brauer-Allee",
+    "streetNumber": "10",
+    "phoneNumber": "4038023153",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "108",
+    "__deleted": false
+  },
+  {
+    "name": "Apedwa",
+    "location": {
+      "latitude": 53.5796108,
+      "longitude": 10.1010062
+    },
+    "countryID": "DE",
+    "city": "Hamburg",
+    "street": "Ahrensburgerstraße",
+    "streetNumber": "97",
+    "phoneNumber": "4088305324",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "109",
+    "__deleted": false
+  },
+  {
+    "name": "Medded",
+    "location": {
+      "latitude": 53.570044,
+      "longitude": 9.901072
+    },
+    "countryID": "DE",
+    "city": "Hamburg",
+    "street": "Bahrenfelder Chaussee",
+    "streetNumber": "140",
+    "phoneNumber": "40892870",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "110",
+    "__deleted": false
+  },
+  {
+    "name": "Tafelberg",
+    "location": {
+      "latitude": 49.682142,
+      "longitude": 8.6250176
+    },
+    "countryID": "DE",
+    "city": "Bensheim",
+    "street": "Nibelungenstraße",
+    "streetNumber": "24",
+    "phoneNumber": "625176877",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "111",
+    "__deleted": false
+  },
+  {
+    "name": "Africa Safari",
+    "location": {
+      "latitude": 49.85528,
+      "longitude": 8.64412
+    },
+    "countryID": "DE",
+    "city": "Darmstadt",
+    "street": "Donnersbergring",
+    "streetNumber": "86",
+    "phoneNumber": "6151963007",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "112",
+    "__deleted": false
+  },
+  {
+    "name": "FARMERHAUS",
+    "location": {
+      "latitude": 49.8701538,
+      "longitude": 8.9263447
+    },
+    "countryID": "DE",
+    "city": "Groß-Umstadt",
+    "street": "Am Farmerhaus",
+    "streetNumber": "1",
+    "phoneNumber": "6078911191",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "113",
+    "__deleted": false
+  },
+  {
+    "name": "Ambassel",
+    "location": {
+      "latitude": 50.1066613,
+      "longitude": 8.693579
+    },
+    "countryID": "DE",
+    "city": "Frankfurt",
+    "street": "Deutschherrnufer",
+    "streetNumber": "28",
+    "phoneNumber": "6960607260",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "114",
+    "__deleted": false
+  },
+  {
+    "name": "Abessinia",
+    "location": {
+      "latitude": 50.11553,
+      "longitude": 8.69585
+    },
+    "countryID": "DE",
+    "city": "Frankfurt",
+    "street": "Pfingstweidstraße",
+    "streetNumber": "2",
+    "phoneNumber": "69439108",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "115",
+    "__deleted": false
+  },
+  {
+    "name": "Ager Bet",
+    "location": {
+      "latitude": 50.1130641,
+      "longitude": 8.6984234
+    },
+    "countryID": "DE",
+    "city": "Frankfurt",
+    "street": " Hanauer Landstraße",
+    "streetNumber": "27",
+    "phoneNumber": "48981581",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "116",
+    "__deleted": false
+  },
+  {
+    "name": "Im Herzen Afrikas",
+    "location": {
+      "latitude": 50.1074924,
+      "longitude": 8.6716326
+    },
+    "countryID": "DE",
+    "city": "Frankfurt",
+    "street": "Gutleutstraße",
+    "streetNumber": "13",
+    "phoneNumber": "6924246080",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "117",
+    "__deleted": false
+  },
+  {
+    "name": "Im Herzen Afrikas",
+    "location": {
+      "latitude": 49.99651,
+      "longitude": 8.26788
+    },
+    "countryID": "DE",
+    "city": "Mainz",
+    "street": "Gaustraße",
+    "streetNumber": "38",
+    "phoneNumber": "61313808111",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "118",
+    "__deleted": false
+  },
+  {
+    "name": "Lalibela",
+    "location": {
+      "latitude": 50.1145341,
+      "longitude": 8.6891674
+    },
+    "countryID": "DE",
+    "city": "Frankfurt",
+    "street": "Klingerstraße",
+    "streetNumber": "2-4",
+    "phoneNumber": "69293831",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "119",
+    "__deleted": false
+  },
+  {
+    "name": "African House",
+    "location": {
+      "latitude": 50.1194321,
+      "longitude": 8.6485326
+    },
+    "countryID": "DE",
+    "city": "Frankfurt",
+    "street": "Kiesstraße",
+    "streetNumber": "39",
+    "phoneNumber": "6971719712",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "120",
+    "__deleted": false
+  },
+  {
+    "name": "Nollywood",
+    "location": {
+      "latitude": 50.1016799,
+      "longitude": 8.6591995
+    },
+    "countryID": "DE",
+    "city": "Frankfurt",
+    "street": "Hafenstraße",
+    "streetNumber": "19",
+    "phoneNumber": "6994947689",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "121",
+    "__deleted": false
+  },
+  {
+    "name": "Demera",
+    "location": {
+      "latitude": 50.1266124,
+      "longitude": 8.6744503
+    },
+    "countryID": "DE",
+    "city": "Frankfurt",
+    "street": "Holzhausenstraße",
+    "streetNumber": "77",
+    "phoneNumber": "6995645158",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "122",
+    "__deleted": false
+  },
+  {
+    "name": "African Queen",
+    "location": {
+      "latitude": 50.1031128,
+      "longitude": 8.6630029
+    },
+    "countryID": "DE",
+    "city": "Frankfurt",
+    "street": "Stuttgarter Straße",
+    "streetNumber": "21",
+    "phoneNumber": "69232990",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "123",
+    "__deleted": false
+  },
+  {
+    "name": "Kenkey House",
+    "location": {
+      "latitude": 50.0982633,
+      "longitude": 8.6668806
+    },
+    "countryID": "DE",
+    "city": "Frankfurt",
+    "street": "Gartenstraße",
+    "streetNumber": "167",
+    "phoneNumber": "6924246203",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "124",
+    "__deleted": false
+  },
+  {
+    "name": "Merkatto",
+    "location": {
+      "latitude": 50.11343,
+      "longitude": 8.68884
+    },
+    "countryID": "DE",
+    "city": "Frankfurt",
+    "street": "Klingerstraße",
+    "streetNumber": "9",
+    "phoneNumber": "6992038880",
+    "type": "shop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "125",
+    "__deleted": false
+  },
+  {
+    "name": "Serengeti",
+    "location": {
+      "latitude": 50.1154153,
+      "longitude": 8.688691
+    },
+    "countryID": "DE",
+    "city": "Frankfurt",
+    "street": "Porzellanhofstraße",
+    "streetNumber": "10",
+    "phoneNumber": "6921998342",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "126",
+    "__deleted": false
+  },
+  {
+    "name": "Twiga",
+    "location": {
+      "latitude": 49.3772348,
+      "longitude": 8.6615288
+    },
+    "countryID": "DE",
+    "city": "Heidelberg",
+    "street": "Struvestraße",
+    "streetNumber": "2",
+    "phoneNumber": "6221786562",
+    "type": "shop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "127",
+    "__deleted": false
+  },
+  {
+    "name": "African Club",
+    "location": {
+      "latitude": 50.1103142,
+      "longitude": 8.6580192
+    },
+    "countryID": "DE",
+    "city": "Frankfurt",
+    "street": "Friedrich-Ebert-Anlage",
+    "streetNumber": "13",
+    "type": "nightClub",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "128",
+    "__deleted": false
+  },
+  {
+    "name": "Souk Party Service",
+    "location": {
+      "latitude": 50.130769,
+      "longitude": 8.6902149
+    },
+    "countryID": "DE",
+    "city": "Frankfurt",
+    "street": "Spohrstrasse",
+    "streetNumber": "56",
+    "phoneNumber": "697074232",
+    "type": "catering",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "129",
+    "__deleted": false
+  },
+  {
+    "name": "Afro Party Service",
+    "location": {
+      "latitude": 49.4244685,
+      "longitude": 8.687794
+    },
+    "countryID": "DE",
+    "city": "Heidelberg",
+    "street": "Steubenstraße",
+    "streetNumber": "StreetNumber",
+    "phoneNumber": "6221400998",
+    "type": "catering",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "130",
+    "__deleted": false
+  },
+  {
+    "name": "Weltladen Heidelberg",
+    "location": {
+      "latitude": 49.4115256,
+      "longitude": 8.7075957
+    },
+    "countryID": "DE",
+    "city": "Heidelberg",
+    "street": "Heugasse",
+    "streetNumber": "2",
+    "phoneNumber": "622122771",
+    "type": "shop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "131",
+    "__deleted": false
+  },
+  {
+    "name": "Weltladen Mannheim",
+    "location": {
+      "latitude": 49.489846,
+      "longitude": 8.4695218
+    },
+    "countryID": "DE",
+    "city": "Mannheim",
+    "street": "S2",
+    "streetNumber": "3",
+    "phoneNumber": "62126064",
+    "type": "shop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "132",
+    "__deleted": false
+  },
+  {
+    "name": "Mary Appiah",
+    "location": {
+      "latitude": 49.5413058,
+      "longitude": 8.5775322
+    },
+    "countryID": "DE",
+    "city": "Viernheim",
+    "street": "Lorscher Straße",
+    "streetNumber": "30 ",
+    "phoneNumber": "620465384",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 133,
+        "service": "catering",
+        "id": "30",
+        "__deleted": false
+      },
+      {
+        "zopID": 133,
+        "service": "shop",
+        "id": "31",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "133",
+    "__deleted": false
+  },
+  {
+    "name": "Habescha",
+    "location": {
+      "latitude": 50.1061875,
+      "longitude": 8.6913712
+    },
+    "countryID": "DE",
+    "city": "Frankfurt",
+    "street": "Frankensteiner Straße",
+    "streetNumber": "11",
+    "phoneNumber": "6966566702",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "134",
+    "__deleted": false
+  },
+  {
+    "name": "OKRA",
+    "location": {
+      "latitude": 51.2287612,
+      "longitude": 6.8044563
+    },
+    "countryID": "DE",
+    "city": "Düsseldorf",
+    "street": "Ackerstraße",
+    "streetNumber": "119",
+    "phoneNumber": "2116911856",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "135",
+    "__deleted": false
+  },
+  {
+    "name": "Cafe Omo",
+    "location": {
+      "latitude": 48.1260738,
+      "longitude": 11.5485332
+    },
+    "countryID": "DE",
+    "city": "München",
+    "street": "Poccistraße",
+    "streetNumber": "10",
+    "phoneNumber": "8917929283",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "136",
+    "__deleted": false
+  },
+  {
+    "name": "Nigest Saba",
+    "location": {
+      "latitude": 48.95974,
+      "longitude": 9.12496
+    },
+    "countryID": "DE",
+    "city": "Bietigheim-Bissingen",
+    "street": "Hauptstraße",
+    "streetNumber": "54",
+    "phoneNumber": "15754041471",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "137",
+    "__deleted": false
+  },
+  {
+    "name": "Savanne",
+    "location": {
+      "latitude": 50.5190451,
+      "longitude": 8.8177882
+    },
+    "countryID": "DE",
+    "city": "Lich",
+    "street": "Schloßgasse",
+    "streetNumber": "8",
+    "phoneNumber": "64042052542",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 138,
+        "service": "cafe",
+        "id": "32",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "138",
+    "__deleted": false
+  },
+  {
+    "name": "Mosob",
+    "location": {
+      "latitude": 51.318626,
+      "longitude": 9.5034196
+    },
+    "countryID": "DE",
+    "city": "Kassel",
+    "street": "Müllergasse",
+    "streetNumber": "2",
+    "phoneNumber": "56185208",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "139",
+    "__deleted": false
+  },
+  {
+    "name": "JAMBO",
+    "location": {
+      "latitude": 48.8958935,
+      "longitude": 9.2022009
+    },
+    "countryID": "DE",
+    "city": "Ludwigsburg",
+    "street": "Schorndorferstraße",
+    "streetNumber": "52",
+    "phoneNumber": "7141923584",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "140",
+    "__deleted": false
+  },
+  {
+    "name": "Samberger's",
+    "location": {
+      "latitude": 52.3508571,
+      "longitude": 9.8923988
+    },
+    "countryID": "DE",
+    "city": "Sehnde-Höver",
+    "street": "Hannoversche Straße",
+    "streetNumber": "11",
+    "phoneNumber": "51326839",
+    "type": "shop",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "141",
+    "__deleted": false
+  },
+  {
+    "name": "Africano Oji",
+    "location": {
+      "latitude": 50.74239,
+      "longitude": 7.099
+    },
+    "countryID": "DE",
+    "city": "Bonn",
+    "street": "Rosental",
+    "streetNumber": "9",
+    "phoneNumber": "2284339977",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "142",
+    "__deleted": false
+  },
+  {
+    "name": "Why Not",
+    "location": {
+      "latitude": 51.20377,
+      "longitude": 6.7721355
+    },
+    "countryID": "DE",
+    "city": "Düsseldorf",
+    "street": "Aachener Strasße",
+    "streetNumber": "71",
+    "phoneNumber": "211-5860277",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [
+      {
+        "zopID": 143,
+        "service": "catering",
+        "id": "33",
+        "__deleted": false
+      }
+    ],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "143",
+    "__deleted": false
+  },
+  {
+    "name": "African Palace",
+    "location": {
+      "latitude": 51.2496652,
+      "longitude": 6.7805744
+    },
+    "countryID": "DE",
+    "city": "Düsseldorf",
+    "street": "Blumenthalstraße",
+    "streetNumber": "2",
+    "phoneNumber": "2315844367",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "144",
+    "__deleted": false
+  },
+  {
+    "name": "African Palace",
+    "location": {
+      "latitude": 50.0739705,
+      "longitude": 8.2316252
+    },
+    "countryID": "DE",
+    "city": "Wiesbaden",
+    "street": "Kaiser-Friedrich-Ring",
+    "streetNumber": "39",
+    "phoneNumber": "6997323779",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "145",
+    "__deleted": false
+  },
+  {
+    "name": "African Palace",
+    "location": {
+      "latitude": 49.4799795,
+      "longitude": 8.4758788
+    },
+    "countryID": "DE",
+    "city": "Mannheim",
+    "street": "Schwetzinger Straße",
+    "streetNumber": "43",
+    "phoneNumber": "6997323779",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "146",
+    "__deleted": false
+  },
+  {
+    "name": "Baobab",
+    "location": {
+      "latitude": 51.5136176,
+      "longitude": 7.4565205
+    },
+    "countryID": "DE",
+    "city": "Dortmund",
+    "street": "Westenhellweg",
+    "streetNumber": "134",
+    "type": "bar",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "147",
+    "__deleted": false
+  },
+  {
+    "name": "Sasch's Bar International",
+    "location": {
+      "latitude": 50.93352,
+      "longitude": 6.99682
+    },
+    "countryID": "DE",
+    "city": "Köln",
+    "street": "Wetzlarer Straße",
+    "streetNumber": "2",
+    "phoneNumber": "2218875471",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "148",
+    "__deleted": false
+  },
+  {
+    "name": "Fasika",
+    "location": {
+      "latitude": 50.9282306,
+      "longitude": 6.9406705
+    },
+    "countryID": "DE",
+    "city": "Köln",
+    "street": "Luxemburger Straße",
+    "streetNumber": "17",
+    "phoneNumber": "2214204891",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "149",
+    "__deleted": false
+  },
+  {
+    "name": "Blue Nile",
+    "location": {
+      "latitude": 50.9302244,
+      "longitude": 6.9430547
+    },
+    "countryID": "DE",
+    "city": "Köln",
+    "street": "Weyerstraße",
+    "streetNumber": "71",
+    "phoneNumber": "2212312936",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "150",
+    "__deleted": false
+  },
+  {
+    "name": "Selam",
+    "location": {
+      "latitude": 50.95106,
+      "longitude": 6.91712
+    },
+    "countryID": "DE",
+    "city": "Köln",
+    "street": "Ehrenfeldgürtel",
+    "streetNumber": "91",
+    "phoneNumber": "2219520352",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "151",
+    "__deleted": false
+  },
+  {
+    "name": "La Pirogue",
+    "location": {
+      "latitude": 51.3300384,
+      "longitude": 6.5705648
+    },
+    "countryID": "DE",
+    "city": "Krefeld",
+    "street": "Stephanplatz",
+    "streetNumber": "2",
+    "phoneNumber": "2151653726",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "152",
+    "__deleted": false
+  },
+  {
+    "name": "Adas Buka",
+    "location": {
+      "latitude": 49.7306915,
+      "longitude": 8.686377
+    },
+    "countryID": "DE",
+    "city": "Lautertal",
+    "street": "Felsberg",
+    "streetNumber": "3",
+    "phoneNumber": "62541349",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "153",
+    "__deleted": false
+  },
+  {
+    "name": "Mama Africa",
+    "location": {
+      "latitude": 51.0616659,
+      "longitude": 13.740258
+    },
+    "countryID": "DE",
+    "city": "Dresden",
+    "street": "Wallgässchen",
+    "streetNumber": "2a",
+    "phoneNumber": "3515635656",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "154",
+    "__deleted": false
+  },
+  {
+    "name": "Mama Africa",
+    "location": {
+      "latitude": 51.1468913,
+      "longitude": 14.9712197
+    },
+    "countryID": "DE",
+    "city": "Görlitz",
+    "street": "Lutherstraße",
+    "streetNumber": "13",
+    "phoneNumber": "3581411238",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "155",
+    "__deleted": false
+  },
+  {
+    "name": "Baobab",
+    "location": {
+      "latitude": 50.4972385,
+      "longitude": 12.1361016
+    },
+    "countryID": "DE",
+    "city": "Plauen",
+    "street": "Postplatz",
+    "streetNumber": "14",
+    "phoneNumber": "3741147082",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "156",
+    "__deleted": false
+  },
+  {
+    "name": "Baobab Party Service",
+    "location": {
+      "latitude": 50.7147207,
+      "longitude": 7.0464541
+    },
+    "countryID": "DE",
+    "city": "Bonn",
+    "street": "Bahnhofstraße",
+    "streetNumber": "4",
+    "phoneNumber": "15773519399",
+    "type": "catering",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "157",
+    "__deleted": false
+  },
+  {
+    "name": "Africano",
+    "location": {
+      "latitude": 52.1217517,
+      "longitude": 11.6306797
+    },
+    "countryID": "DE",
+    "city": "Magdeburg",
+    "street": "Keplerstraße",
+    "streetNumber": "11c",
+    "phoneNumber": "3915096015",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "158",
+    "__deleted": false
+  },
+  {
+    "name": "Safari House",
+    "location": {
+      "latitude": 54.3245536,
+      "longitude": 10.1137813
+    },
+    "countryID": "DE",
+    "city": "Kiel",
+    "street": "Westring",
+    "streetNumber": "242",
+    "phoneNumber": "43115148",
+    "type": "restaurant",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "159",
+    "__deleted": false
+  },
+  {
+    "name": "NAHIFA",
+    "location": {
+      "latitude": 49.1227892,
+      "longitude": 8.5920333
+    },
+    "countryID": "DE",
+    "city": "Bruchsal",
+    "street": "Moltkestraße",
+    "streetNumber": "3",
+    "phoneNumber": "72513222089",
+    "type": "association",
+    "origin": "web",
+    "dataVersion": 1,
+    "services": [],
+    "countryName": "Germany",
+    "countryPhoneCode": "+49",
+    "rating": 0,
+    "count": 0,
+    "id": "160",
+    "__deleted": false
+  }
+]

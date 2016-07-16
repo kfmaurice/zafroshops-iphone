@@ -1,0 +1,77 @@
+<ion-view>
+	<ion-nav-title>{{zop.name}}</ion-nav-title>
+	<ion-nav-buttons side="right">
+		<button class="button button-clear icon-left ion-ios-navigate-outline" ng-click="zop.name && goTo(zop.location)" ng-disabled="zop.name == null"></button>
+	</ion-nav-buttons>
+	
+  <ion-content class="details padding" ng-show="zop.name != null">
+		<div class="list card">
+			<div class="item">
+				<img class="service" ng-repeat="service in zop.services" ng-src="img/{{service.service}}.png" />
+				<span class="rating positive"><rating stars="zop.rating" /></span>
+			</div>
+			
+			<div class="pic padding item item-image">
+				<img ng-src="{{ zop.pic ? zop.pic : 'img/nopictureyet.png' }}" style="width: 100%"/><br />
+				<span ng-show="zop.pic != null">No picture yet</span>
+			</div>
+		</div>
+		
+		<div class="list card">
+			<div class="item item-icon-left" ng-show="zop.phoneNumber">
+				<i class="icon ion-ios-telephone"></i>
+				<a href="tel:{{zop.countryPhoneCode}}{{zop.phoneNumber}}">{{zop.countryPhoneCode}} {{zop.phoneNumber}}</a>
+			</div>
+			
+			<div class="item item-icon-left">
+				<i class="icon ion-ios-location"></i>
+				<span>{{zop.street}} {{zop.streetNumber}}<br/>{{zop.city}}<br/>{{zop.countryName}}</span>
+			</div>
+			
+			<div class="openings item item-icon-left" ng-show="zop.openingHours && zop.openingHours.length > 0">
+				<i class="icon ion-ios-time"></i>
+				<div ng-repeat="opening in zop.openingHours">
+					<span class="day">{{getDay(opening.day)}}</span>
+					<span class="hour"
+						ng-repeat="hour in opening.hours"><br/>{{format(hour.startTimeHour, hour.startTimeMinute)}} - {{format(hour.endTimeHour, hour.endTimeMinute)}}</span>
+				</div>
+			</div>
+			
+			<div class="item item-icon-left" ng-show="zop.details">
+				<i class="icon ion-ios-information"></i>
+				<span>{{zop.details}}</span>
+			</div>
+			
+			<div class="item item-icon-left" ng-show="!rated">
+				<i class="icon ion-ios-star-half"></i>
+				<div class="list list-inset">
+					<span>Where do you know this zop ?</span><br/><br/>
+					<label class="item item-radio">
+						<input type="radio" name="confirmation" ng-model="post.confirmed" ng-value="false" />
+						<div class="item-content ng-class:{ 'checked': post.confirmed == false }">{{msg.know}}</div>
+						<i class="radio-icon ion-checkmark ng-class:{ 'checked': post.confirmed == false }"></i>
+					</label>
+					<label class="item item-radio">
+						<input type="radio" name="confirmation" ng-model="post.confirmed" ng-value="true" />
+						<div class="item-content ng-class:{ 'checked': post.confirmed == true }">{{msg.been}}</div>
+						<i class="radio-icon ion-checkmark ng-class:{ 'checked': post.confirmed == true }"></i>
+					</label>
+					
+					<div class="item item-input" ng-style="{'padding-left': '0px', 'margin-left': '0px'}" ng-show="post.confirmed">
+						<span class="input-label">Your rating</span>
+						<span class="positive details-rating "><rating stars="post.rating" editable="true" /></span>
+					</div>
+					
+					<div class="item item-input" ng-style="{'padding-left': '0px', 'margin-left': '0px'}">
+						<span class="input-label">Comments</span>
+						<textarea type="text" placeholder="Say something ?" ng-model="post.comments"></textarea>
+					</div>
+					
+					<button class="button button-block ng-class:{'button-positive': post.confirmed == false || post.rating > 0, 'button-stable': post.rating <= 0}"
+						ng-disabled="post.confirmed == null || (post.confirmed && post.rating <= 0)" ng-click="rate()">Submit</button>
+				</div>
+			</div>
+			
+		</div>
+  </ion-content>
+</ion-view>

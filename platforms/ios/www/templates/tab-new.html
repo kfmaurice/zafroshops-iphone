@@ -1,0 +1,129 @@
+<form name="form" novalidate>
+
+<ion-view view-title="New Zop ?">
+	<ion-nav-buttons side="right">
+		<button class="button icon-left ion-ios-checkmark" ng-click="submit()" ng-disabled="form.$invalid">&nbsp;Submit</button>
+	</ion-nav-buttons>
+	<ion-nav-buttons side="left">
+		<button class="button button-clear" ng-click="showSettings()">Settings</button>
+	</ion-nav-buttons>
+		
+  <ion-content>
+	{{test}}
+		<div class="list list-inset" ng-show="failure">
+			<label class="item assertive">
+				<span>{{failure}}</span>
+			</label>
+		</div>
+		
+		<div class="list list-inset">
+			<label class="item item-input">
+				<span class="input-label ng-class: { 'assertive' : form.name.$error.required && form.name.$dirty }">Zop Name</span>
+				<input name="name" type="text" placeholder="Required" ng-model="post.name" required />
+			</label>
+			
+			<label class="item item-input item-select">
+				<span class="input-label ng-class: { 'assertive' : form.category.$error.required && form.category.$dirty }">Category</span>
+				<select name="category" ng-model="post.type" ng-options="type.id as type.name for (id, type) in types | orderBy:sortTypes" required>
+					<option value="" selected>Select a category</option>
+				</select>
+			</label>
+			
+			<button class="button button-block icon-left ion-ios-home ng-class:{'button-positive': servicesVisible, 'button-stable': !servicesVisible}"
+				ng-model="servicesVisible" ng-click="servicesVisible = !servicesVisible">
+				Additional Services
+				<span ng-show="getServices().length > 0">({{getServices().length}}/{{extendedTypes.length - excluded}})</span>
+			</button>
+			
+			<ul class="list" ng-show="servicesVisible">
+				<li class="item item-checkbox" ng-repeat="service in extendedTypes" ng-show="service.id != post.type">
+					<label class="checkbox">
+						<input type="checkbox" ng-model="services[$index]">
+					</label>
+					{{service.name}}
+				</li>
+			</ul>
+			
+			<button class="button button-block icon-left ion-ios-time-outline ng-class:{'button-positive': openingsVisible, 'button-stable': !openingsVisible}"
+				ng-model="openingsVisible" ng-click="openingsVisible = !openingsVisible">
+				Opening Hours
+				<span ng-show="openings.length > 0">({{openings.length}}/{{days.length}})</span>
+			</button>
+			
+			<div ng-show="openingsVisible">
+				<label class="item item-input item-select">
+					<span class="input-label">Open on</span>
+					<select ng-model="oDay" ng-options="day.id as day.name for (id, day) in days">
+						<option value="" selected>Select a day</option>
+					</select>
+				</label>
+				<label class="item item-input">
+					<span class="input-label">From</span>
+					<input ng-model="sTime" type="time" placeholder="Select a time">
+				</label>
+				<label class="item item-input">
+					<span class="input-label">To</span>
+					<input ng-model="eTime" type="time" placeholder="Select a time">
+				</label>
+
+				<div class="right">
+					<a class="button button-small icon-left ion-ios-plus 
+						ng-class:{'button-positive': oDay != null && sTime && eTime, 'button-light': oDay == null || !sTime || !eTime}"
+						ng-disabled="oDay == null || !sTime || !eTime" ng-click="addOpeningHour(oDay, sTime, eTime)">Add Time</a>
+				</div>
+				
+				<div class="list openings new-opening" ng-show="openings">
+					<div ng-repeat="opening in openings">
+						<div class="item item-divider">{{getDay(opening.day)}}</div>
+						<ion-list>
+							<ion-item class="item item-remove-animate item-text-wrap" ng-repeat="hour in opening.hours" ng-style="{'height': 20px, 'line-height': 15px}">
+								{{format(hour.startTimeHour, hour.startTimeMinute)}} - {{format(hour.endTimeHour, hour.endTimeMinute)}}
+								<ion-option-button class="button-small button-assertive" ng-click="removeOpeningHour(opening.day, $index)">Delete</ion-option-button>
+							</ion-item>
+						</ion-list>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="list list-inset location-hint">
+			<a class="item item-divider item-icon-left" ng-class="{ 'disabled': !useLocation }" ng-click="useLocation && refresh()">
+				<i class="icon ion-ios-location-outline" ng-class="{ 'positive': useLocation }"></i>
+				Update Current Location
+			</a>
+			<label class="item item-input item-select">
+				<span class="input-label ng-class: { 'assertive' : form.country.$error.required && form.country.$dirty }">Country</span>
+				<select name="country" ng-model="country" ng-options="country.name for country in countries" required>
+					<option value="" selected>Select a country</option>
+				</select>
+			</label>
+			
+			<label class="item item-input">
+				<span class="input-label ng-class: { 'assertive' : form.city.$error.required && form.city.$dirty }">City</span>
+				<input name="city" type="text" placeholder="Required" ng-model="post.city" required />
+			</label>
+			
+			<label class="item item-input">
+				<span class="input-label ng-class: { 'assertive' : form.street.$error.required && form.street.$dirty }">Street</span>
+				<input name="street" type="text" placeholder="Required" ng-model="post.street" required />
+			</label>
+			
+			<label class="item item-input">
+				<span class="input-label">Street Number</span>
+				<input type="text" placeholder="Optional" ng-model="post.streetNumber" />
+			</label>
+		</div>
+		
+		<div class="list list-inset">
+			<div class="item item-input">
+				<span class="input-label">Phone Number</span>
+				<input type="text" placeholder="{{country.phoneCode}}" ng-disabled class="col-20" style="margin:0;padding:0;" />
+				<input type="number" placeholder="Optional" ng-model="post.phoneNumber" />
+			</div>
+		</div>
+		
+  </ion-content>
+</ion-view>
+
+</form>

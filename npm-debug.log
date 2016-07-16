@@ -1,0 +1,214 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'update',
+1 verbose cli   '-g',
+1 verbose cli   'cordova' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.1
+4 silly mapToRegistry name cordova
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry uri https://registry.npmjs.org/cordova
+8 verbose request uri https://registry.npmjs.org/cordova
+9 verbose request no auth needed
+10 info attempt registry request try #1 at 11:00:07 PM
+11 verbose request id f0f751f951e5f112
+12 verbose etag "A2Q9V4MEKFCGOJLXXRYAHJD2L"
+13 http request GET https://registry.npmjs.org/cordova
+14 http 200 https://registry.npmjs.org/cordova
+15 silly get cb [ 200,
+15 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+15 silly get     etag: '"9903S857FRVGJP2UYT35FBB7P"',
+15 silly get     'content-type': 'application/json',
+15 silly get     'cache-control': 'max-age=60',
+15 silly get     'content-length': '367885',
+15 silly get     'accept-ranges': 'bytes',
+15 silly get     date: 'Sun, 22 Nov 2015 22:00:08 GMT',
+15 silly get     via: '1.1 varnish',
+15 silly get     age: '0',
+15 silly get     connection: 'keep-alive',
+15 silly get     'x-served-by': 'cache-fra1240-FRA',
+15 silly get     'x-cache': 'HIT',
+15 silly get     'x-cache-hits': '1',
+15 silly get     'x-timer': 'S1448229607.238407,VS0,VE832',
+15 silly get     vary: 'Accept' } ]
+16 verbose get saving cordova to /Users/maurice/.npm/registry.npmjs.org/cordova/.cache.json
+17 info outdated updating [ [ '/usr/local/lib', 'cordova', '5.3.3', '5.4.0', '5.4.0', 'latest' ] ]
+18 verbose install where, what [ '/usr/local/lib', [ 'cordova@5.4.0' ] ]
+19 verbose install initial load of /usr/local/lib/package.json
+20 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+21 silly cache add args [ 'cordova@5.4.0', null ]
+22 verbose cache add spec cordova@5.4.0
+23 silly cache add parsed spec Result {
+23 silly cache add   raw: 'cordova@5.4.0',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'cordova',
+23 silly cache add   rawSpec: '5.4.0',
+23 silly cache add   spec: '5.4.0',
+23 silly cache add   type: 'version' }
+24 silly addNamed cordova@5.4.0
+25 verbose addNamed "5.4.0" is a plain semver version for cordova
+26 silly mapToRegistry name cordova
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry uri https://registry.npmjs.org/cordova
+30 verbose addNameVersion registry:https://registry.npmjs.org/cordova not in flight; fetching
+31 verbose get https://registry.npmjs.org/cordova not expired, no request
+32 silly mapToRegistry name cordova
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/cordova
+36 verbose addRemoteTarball https://registry.npmjs.org/cordova/-/cordova-5.4.0.tgz not in flight; adding
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/cordova/-/cordova-5.4.0.tgz',
+37 verbose addRemoteTarball   '2ed2255c2d73c713053e84df0de24caf73502659' ]
+38 info retry fetch attempt 1 at 11:00:08 PM
+39 info attempt registry request try #1 at 11:00:08 PM
+40 http fetch GET https://registry.npmjs.org/cordova/-/cordova-5.4.0.tgz
+41 http fetch 200 https://registry.npmjs.org/cordova/-/cordova-5.4.0.tgz
+42 silly fetchAndShaCheck shasum 2ed2255c2d73c713053e84df0de24caf73502659
+43 verbose addTmpTarball /var/folders/yt/b9lv67854659r3kwmgkzl62r0000gn/T/npm-12265-825fdef8/registry.npmjs.org/cordova/-/cordova-5.4.0.tgz not in flight; adding
+44 verbose addTmpTarball already have metadata; skipping unpack for cordova@5.4.0
+45 silly cache afterAdd cordova@5.4.0
+46 verbose afterAdd /Users/maurice/.npm/cordova/5.4.0/package/package.json not in flight; writing
+47 verbose afterAdd /Users/maurice/.npm/cordova/5.4.0/package/package.json written
+48 silly install resolved [ { name: 'cordova',
+48 silly install resolved     version: '5.4.0',
+48 silly install resolved     preferGlobal: 'true',
+48 silly install resolved     description: 'Cordova command line interface tool',
+48 silly install resolved     main: 'cordova',
+48 silly install resolved     engines: { node: '>=0.9.9' },
+48 silly install resolved     engineStrict: true,
+48 silly install resolved     bin: { cordova: './bin/cordova' },
+48 silly install resolved     scripts:
+48 silly install resolved      { test: 'node node_modules/jasmine-node/bin/jasmine-node --captureExceptions --color spec',
+48 silly install resolved        cover: 'node node_modules/istanbul/lib/cli.js cover --root src --print detail node_modules/jasmine-node/bin/jasmine-node -- spec' },
+48 silly install resolved     repository:
+48 silly install resolved      { type: 'git',
+48 silly install resolved        url: 'https://git-wip-us.apache.org/repos/asf/cordova-cli.git' },
+48 silly install resolved     bugs:
+48 silly install resolved      { url: 'https://issues.apache.org/jira/browse/CB',
+48 silly install resolved        email: 'dev@cordova.apache.org' },
+48 silly install resolved     keywords: [ 'cordova', 'client', 'cli' ],
+48 silly install resolved     dependencies:
+48 silly install resolved      { ansi: '^0.3.0',
+48 silly install resolved        'cordova-lib': '5.4.0',
+48 silly install resolved        q: '1.0.1',
+48 silly install resolved        nopt: '3.0.1',
+48 silly install resolved        underscore: '1.7.0',
+48 silly install resolved        'update-notifier': '^0.5.0' },
+48 silly install resolved     devDependencies:
+48 silly install resolved      { istanbul: '^0.3.4',
+48 silly install resolved        grunt: '0.4.5',
+48 silly install resolved        'grunt-retire': '0.3.7',
+48 silly install resolved        'jasmine-node': '1.14.5' },
+48 silly install resolved     author: { name: 'Anis Kadri' },
+48 silly install resolved     contributors:
+48 silly install resolved      [ [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object] ],
+48 silly install resolved     license: 'Apache version 2.0',
+48 silly install resolved     _id: 'cordova@5.4.0',
+48 silly install resolved     _shasum: '2ed2255c2d73c713053e84df0de24caf73502659',
+48 silly install resolved     _resolved: 'https://registry.npmjs.org/cordova/-/cordova-5.4.0.tgz',
+48 silly install resolved     _from: 'cordova@5.4.0',
+48 silly install resolved     _npmVersion: '2.14.2',
+48 silly install resolved     _nodeVersion: '0.10.36',
+48 silly install resolved     _npmUser: { name: 'stevegill', email: 'stevengill97@gmail.com' },
+48 silly install resolved     dist:
+48 silly install resolved      { shasum: '2ed2255c2d73c713053e84df0de24caf73502659',
+48 silly install resolved        tarball: 'http://registry.npmjs.org/cordova/-/cordova-5.4.0.tgz' },
+48 silly install resolved     maintainers:
+48 silly install resolved      [ [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object] ],
+48 silly install resolved     directories: {} } ]
+49 info install cordova@5.4.0 into /usr/local/lib
+50 info installOne cordova@5.4.0
+51 verbose installOne of cordova to /usr/local/lib not in flight; installing
+52 verbose lock using /Users/maurice/.npm/_locks/cordova-fa12e2e096426a32.lock for /usr/local/lib/node_modules/cordova
+53 silly install write writing cordova 5.4.0 to /usr/local/lib/node_modules/cordova
+54 verbose unbuild lib/node_modules/cordova
+55 info preuninstall cordova@5.3.3
+56 info uninstall cordova@5.3.3
+57 verbose unbuild rmStuff cordova@5.3.3 from /usr/local/lib/node_modules
+58 silly gentlyRm /usr/local/bin/cordova is being gently removed
+59 silly gentlyRm verifying /usr/local is an npm working directory
+60 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+61 silly gentlyRm deletion target /usr/local/bin/cordova is under /usr/local
+62 verbose gentlyRm vacuuming from /usr/local/bin/cordova up to /usr/local
+63 silly vacuum-fs removing /usr/local/bin/cordova
+64 verbose unlock done using /Users/maurice/.npm/_locks/cordova-fa12e2e096426a32.lock for /usr/local/lib/node_modules/cordova
+65 verbose stack Error: EACCES: permission denied, unlink '/usr/local/bin/cordova'
+65 verbose stack     at Error (native)
+66 verbose cwd /Users/maurice/Documents/PhoneGap/Dynamite.Zafroshops.IPhone
+67 error Darwin 15.0.0
+68 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "update" "-g" "cordova"
+69 error node v4.1.1
+70 error npm  v2.14.4
+71 error path /usr/local/bin/cordova
+72 error code EACCES
+73 error errno -13
+74 error syscall unlink
+75 error Error: EACCES: permission denied, unlink '/usr/local/bin/cordova'
+75 error     at Error (native)
+75 error  { [Error: EACCES: permission denied, unlink '/usr/local/bin/cordova']
+75 error   errno: -13,
+75 error   code: 'EACCES',
+75 error   syscall: 'unlink',
+75 error   path: '/usr/local/bin/cordova' }
+76 error Please try running this command again as root/Administrator.
+77 verbose exit [ -13, true ]
+78 verbose unbuild lib/node_modules/cordova
+79 info preuninstall cordova@5.3.3
+80 info uninstall cordova@5.3.3
+81 verbose unbuild rmStuff cordova@5.3.3 from /usr/local/lib/node_modules
+82 silly gentlyRm /usr/local/bin/cordova is being gently removed
+83 silly gentlyRm verifying /usr/local is an npm working directory
+84 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+85 silly gentlyRm deletion target /usr/local/bin/cordova is under /usr/local
+86 verbose gentlyRm vacuuming from /usr/local/bin/cordova up to /usr/local
+87 silly vacuum-fs removing /usr/local/bin/cordova
+88 error error rolling back Error: EACCES: permission denied, unlink '/usr/local/bin/cordova'
+88 error error rolling back     at Error (native)
+88 error error rolling back  { [Error: EACCES: permission denied, unlink '/usr/local/bin/cordova']
+88 error error rolling back   errno: -13,
+88 error error rolling back   code: 'EACCES',
+88 error error rolling back   syscall: 'unlink',
+88 error error rolling back   path: '/usr/local/bin/cordova' }
