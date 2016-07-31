@@ -122,7 +122,7 @@ angular.module('starter.services', [])
 				Common.service().invokeApi('mobileZop', { method: 'GET', parameters: { type: typeName } });
 		},
 		getNearest: function() {
-			return Common.service().invokeApi('mobileZop?$top=10', { method: 'GET', parameters: { latitude: Globals.latitude, longitude: Globals.longitude } });
+			return Common.service().invokeApi('mobileZop?$top=5', { method: 'GET', parameters: { latitude: Globals.latitude, longitude: Globals.longitude } });
 		},
 		getZop: function(zopId) {
 			return Common.service().invokeApi('mobileZop', { method: 'GET', parameters: { fullId: zopId } });
