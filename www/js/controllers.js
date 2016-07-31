@@ -267,7 +267,7 @@ angular.module('starter.controllers', [])
 	$scope.refresh(false);
 })
 
-.controller('DetailCtrl', function($scope, $http, $ionicLoading, $stateParams, Constants, Common, Zops, Ads) {
+.controller('DetailCtrl', function($scope, $http, $ionicLoading, $stateParams, $ionicScrollDelegate, Constants, Common, Zops, Ads) {
 	// advertising
 	Ads.hide();
 	Ads.showInterstitial();
@@ -308,7 +308,9 @@ angular.module('starter.controllers', [])
 	
 	$scope.getDay = Zops.getDay;
 	$scope.rate = function() {
+		$scope.post.confirmedBy = 'apple';
 		Zops.rateZop($scope.post).done(function(data) {
+			$ionicScrollDelegate.scrollTop();
 			Common.showMessage(Constants.rate_success);
 		},
 		function(error) {
