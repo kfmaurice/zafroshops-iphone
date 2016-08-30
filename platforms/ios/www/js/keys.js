@@ -19,7 +19,7 @@ angular.module('starter.keys', [])
 
 .constant('Keys',
 {
-	//azureSite: 'http://localhost:8100/ms',
+//	azureSite: 'http://localhost:8100/ms',
 	azureSite: 'http://172.163.154.22:59230',
 	azureKey: '',
 	googleApiKey: ''
