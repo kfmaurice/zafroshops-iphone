@@ -308,7 +308,7 @@ angular.module('starter.controllers', [])
 	
 	$scope.getDay = Zops.getDay;
 	$scope.rate = function() {
-		$scope.post.confirmedBy = 'apple';
+		$scope.post.confirmedBy = 'Apple';
 		Zops.rateZop($scope.post).done(function(data) {
 			$ionicScrollDelegate.scrollTop();
 			Common.showMessage(Constants.rate_success);
