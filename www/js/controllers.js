@@ -337,7 +337,7 @@ angular.module('starter.controllers', [])
 	$scope.extendedTypes = Zops.getServices();
 	$scope.days = Zops.getDays();
 	$scope.getDay = Zops.getDay;
-	$scope.address = null;
+	$scope.address = {};
 	$scope.excluded = 0;
 	
 	$scope.$on('$ionicView.enter', function(){
@@ -451,7 +451,7 @@ angular.module('starter.controllers', [])
 
 		$scope.post.services = $scope.getServices();
 		$scope.post.origin = Constants.apple;
-		$scope.post.countryID = $scope.country.countryID;
+		$scope.post.countryID = $scope.country.id;
 
 		$ionicLoading.show({ template: Constants.load_sending });
 		Zops.addZop($scope.post).done(function(data) {
@@ -464,6 +464,7 @@ angular.module('starter.controllers', [])
 				});
 				$ionicLoading.hide();
 				Common.showMessage(Constants.zop_success);
+				$scope.form.$setPristine();
 			}
 			else {
 				$scope.failure = data.result.name;
