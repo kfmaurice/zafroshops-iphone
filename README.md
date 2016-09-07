@@ -1,7 +1,7 @@
 # zafroshops-iphone
 This repository contains the code to the iPhone application for the Zafroshops project.
 
-![iphone](https://raw.githubusercontent.com/kfmaurice/zafroshops-media/master/Images/IPhone/i4s_1.png)
+<img src="https://raw.githubusercontent.com/kfmaurice/zafroshops-media/master/Images/IPhone/i4s_1.png" width="50%" /><img src="https://raw.githubusercontent.com/kfmaurice/zafroshops-media/master/Images/IPhone/i4s_4.png" width="50%" />
 
 To contribute to this project, first make sure you have signed an [individual CLA] (https://github.com/kfmaurice/zafroshops-documentation/blob/master/Licensing/icla.pdf). Then follow the followings steps to commit your code. After that, you'll be added as contributor to this project.
 
