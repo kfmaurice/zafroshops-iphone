@@ -24,6 +24,7 @@ angular.module('starter.controllers', [])
 	$scope.img = Common.img;
 	$scope.loading = Constants.load_loading;
 	$scope.groupSize = 4;
+	$scope.help = { dontShowHelp: Globals.dontShowHelp };
 	
 	$scope.init = function(){
 		$http.get('json/zops.json').success(function(data){
@@ -62,6 +63,7 @@ angular.module('starter.controllers', [])
 
 	// cache and local logic
 	document.addEventListener('deviceready', function () {
+		$scope.updating = true;
 		Common.cache.load($cordovaFile, Common.cache.location, function(data) {
 			Globals.useLocation = data.useLocation;
 			$scope.useLocation = data.useLocation;
@@ -87,10 +89,32 @@ angular.module('starter.controllers', [])
 					Common.cache.save($cordovaFile, Common.cache.categories, data);
 				});
 			});
+			
+		Common.cache.load($cordovaFile, Common.cache.help, function(data) {
+			$scope.help.dontShowHelp = data.dontShowHelp;
+			Globals.dontShowHelp = data.dontShowHelp;
+			
+			if(!$scope.help.dontShowHelp) {
+				Common.showHelp($scope);
+			}
+			$scope.updating = false;
+		}, function() {
+			$scope.help.dontShowHelp = false;
+			$scope.updating = false;
+		});
 	});
 	
-	var toggle = false;
-	
+	$scope.toggleHelp = function() {
+		Common.cache.save($cordovaFile, Common.cache.help, $scope.help, function(data) {
+			Globals.dontShowHelp = data.dontShowHelp;
+			$scope.help.dontShowHelp = data.dontShowHelp;
+			
+			$scope.updating = false;
+		}, function() {
+			$scope.updating = false;
+		});
+	};
+		
 	$scope.more = function() {
 		window.plugins.socialsharing.share(Constants.share_message, Constants.share_title, 'www/img/icon.png', Constants.share_url);
 	};
@@ -338,6 +362,7 @@ angular.module('starter.controllers', [])
 	$scope.days = Zops.getDays();
 	$scope.getDay = Zops.getDay;
 	$scope.address = {};
+//	$scope.post = {};
 	$scope.excluded = 0;
 	
 	$scope.$on('$ionicView.enter', function(){
@@ -442,6 +467,9 @@ angular.module('starter.controllers', [])
 	};
 	
 	$scope.submit = function() {
+	
+	try {
+	
 		$scope.post.openingHours = [];
 		for(var i = 0; i < $scope.openings.length; i++) {
 			for(var j = 0; j < $scope.openings[i].hours.length; j++) {
@@ -476,6 +504,12 @@ angular.module('starter.controllers', [])
 			});
 			Common.showMessage(Constants.failed);
 		});
+	}
+	
+	catch(error) {
+	Common.showMessage(error);
+	}
+	
 	};
 	
 	$scope.showSettings = function() {
@@ -529,21 +563,27 @@ angular.module('starter.controllers', [])
 	$scope.toggleLocation = function() {
 		Common.cache.save($cordovaFile, Common.cache.location, $scope.location, function(data) {
 			Globals.useLocation = data.useLocation;
-			$scope.updating = false;
+			$scope.updatingLocationSetting = false;
 		}, function() {
-			$scope.updating = false;
+			$scope.updatingLocationSetting = false;
 		});
 	}
 	
+	$scope.showHelp = function(){
+		Common.showHelp($scope);
+	};
+	
 	document.addEventListener('deviceready', function () {
-		$scope.updating = true;
+		$scope.updatingLocationSetting = true;
+		$scope.updatingHelpSetting = true;
+		
 		Common.cache.load($cordovaFile, Common.cache.location, function(data) {
 			$scope.location.useLocation = data.useLocation;
 			Globals.useLocation = data.useLocation;
-			$scope.updating = false;
+			$scope.updatingLocationSetting = false;
 		}, function() {
 			$scope.location.useLocation = true;
-			$scope.updating = false;
+			$scope.updatingLocationSetting = false;
 		});
 	});
 });

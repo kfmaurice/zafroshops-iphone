@@ -206,7 +206,8 @@ angular.module('starter.tools', [])
 		countryId: null,
 		adsFlag: true,
 		dataVersion: 0,
-		useLocation: true
+		useLocation: true,
+		dontShowHelp: false
 	};
 })
 
@@ -294,6 +295,7 @@ angular.module('starter.tools', [])
 			categories: 'categories.txt',
 			base: 'zops_*.txt',
 			location: 'location.txt',
+			help: 'zops.txt',
 			
 			fromBase: function(type) {
 				return this.base.replace('*', type);
@@ -505,6 +507,24 @@ angular.module('starter.tools', [])
 			});
 			alertPopup.then(function(res) {
 				//console.log('');
+			});
+		},
+		
+		showHelp: function(scope) {
+			var help = $ionicPopup.show({
+				title: 'Help',
+				templateUrl: 'popup-help.html',
+				scope: scope,
+				buttons: [{
+					text: 'OK',
+					type: 'button-positive',
+					onTap: function(e) {
+					}
+				}]
+			});
+			
+			help.then(function() {
+			
 			});
 		},
 		

@@ -54,4 +54,32 @@
 			</div>
 		</div>
 	</script>
+	
+	<script id="popup-help.html" type="text/ng-template">
+		<div class="help">
+			Thank you for using Zafroshops, the number one application for referencing afroshops (zops) around the world.
+			With this app you can see all afroshops referenced for your country.<br/><br/>
+				
+			Through the tabs on the bottom, you can switch between three views.<br/><br/>
+			<i class="icon ion-bag"></i> Zops:<br/>displays all zops by category e.g. shops, bar, associations, ...<br/>
+			<div class="types">
+				<img src="img/shop.png" />
+				<img src="img/bar.png" />
+				<img src="img/association.png" />
+				<span>...</span>
+			</div>
+			
+			By choosing a category, you'll see all zops referenced for this category. Tapping on a zop shows you details like address, phone number, etc<br/><br/>
+
+			<i class="icon ion-ios-cart"></i> Nearest:<br/>displays the 5 closest zops to you independently from the category.<br/><br/>
+
+			<i class="icon ion-ios-compose"></i> Discovered:<br/>allows you to submit us a zop to be referenced. So if your favourite zop or any zop you know is
+			not referenced here, do use the form to provide the zop details. In this case, you are required to fill at least a name and a address. But we'll be
+			glad if you could provide opening hours and additional services too.
+			<br/><br/>
+			We wish you a lot of fun with Zafroshops :-)
+			<br><br>
+			<ion-checkbox ng-model="help.dontShowHelp" ng-change="toggleHelp()" ng-disabled="updating" ng-style="{ 'font-size': '11px'}">Don't show this message again</ion-checkbox>
+		</div>
+	</script>
 </html>

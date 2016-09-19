@@ -18,6 +18,12 @@
 			<div class="item item-divider">Location{{data}}</div>
 			<ion-toggle toggle-class="toggle-positive" ng-model="location.useLocation" ng-change="toggleLocation()" ng-disabled="updating">Use My Location</ion-toggle>
 		</div>
+
+		<div class="list list-inset">
+			<div class="item item-divider">Help</div>
+			<a class="item" ng-click="showHelp()">Display Help</a>
+		</div>
+	</div>
 	</ion-content>
 </ion-view>
 
