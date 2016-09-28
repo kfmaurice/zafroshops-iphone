@@ -100,6 +100,7 @@ angular.module('starter.controllers', [])
 			$scope.updating = false;
 		}, function() {
 			$scope.help.dontShowHelp = false;
+			Common.showHelp($scope);
 			$scope.updating = false;
 		});
 	});
@@ -145,7 +146,9 @@ angular.module('starter.controllers', [])
 		Zops.getTyped($stateParams.typeName).done(function(data) {
 			$scope.$apply(function() {
 				
-				$scope.typedZops = data.result;
+				$scope.typedZops = data.filter(function(zop) {
+					return zop.type == $stateParams.typeName && (Globals.countryId ? Globals.countryId === zop.countryID : true);
+				});
 				Common.decorate($scope.typedZops, Globals.useLocation);
 				if(callback) {
 					callback.call(this, $scope.typedZops);
@@ -352,7 +355,7 @@ angular.module('starter.controllers', [])
 	};
 })
 
-.controller('NewCtrl', function($scope, $ionicLoading, $state, Constants, Common, Globals, Zops) {
+.controller('NewCtrl', function($scope, $ionicLoading, $ionicScrollDelegate, $state, Constants, Common, Globals, Zops) {
 	$scope.services = [];
 	$scope.openings = [];
 	$scope.countries = [];
@@ -362,7 +365,6 @@ angular.module('starter.controllers', [])
 	$scope.days = Zops.getDays();
 	$scope.getDay = Zops.getDay;
 	$scope.address = {};
-//	$scope.post = {};
 	$scope.excluded = 0;
 	
 	$scope.$on('$ionicView.enter', function(){
@@ -483,18 +485,21 @@ angular.module('starter.controllers', [])
 
 		$ionicLoading.show({ template: Constants.load_sending });
 		Zops.addZop($scope.post).done(function(data) {
-			if(data.result.id > 0) {
+			if(data.result.id != '-1') {
 				$scope.$apply(function() {
 					$scope.post = {};
 					$scope.services = [];
 					$scope.openings = [];
 					$scope.setAddress();
 				});
+				
 				$ionicLoading.hide();
 				Common.showMessage(Constants.zop_success);
 				$scope.form.$setPristine();
 			}
 			else {
+				$ionicLoading.hide();
+				$ionicScrollDelegate.scrollTop();
 				$scope.failure = data.result.name;
 			}
 		},
