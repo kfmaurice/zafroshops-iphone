@@ -482,7 +482,6 @@ angular.module('starter.controllers', [])
 
 		$scope.post.services = $scope.getServices();
 		$scope.post.origin = Constants.apple;
-		$scope.post.countryID = $scope.country.id;
 
 		$ionicLoading.show({ template: Constants.load_sending });
 		Zops.addZop($scope.post).done(function(data) {

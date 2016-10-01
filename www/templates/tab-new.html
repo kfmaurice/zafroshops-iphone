@@ -93,7 +93,7 @@
 			</a>
 			<label class="item item-input item-select">
 				<span class="input-label ng-class: { 'assertive' : form.country.$error.required && form.country.$dirty }">Country</span>
-				<select name="country" ng-model="country" ng-options="c.name for c in countries" required>
+				<select name="country" ng-model="post.countryID" ng-options="country.id as country.name for (id, country) in countries" required>
 					<option value="" selected>Select a country</option>
 				</select>
 			</label>
