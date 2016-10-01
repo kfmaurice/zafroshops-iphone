@@ -295,7 +295,7 @@ angular.module('starter.tools', [])
 			categories: 'categories.txt',
 			base: 'zops_*.txt',
 			location: 'location.txt',
-			help: 'zops.txt',
+			help: 'help.txt',
 			
 			fromBase: function(type) {
 				return this.base.replace('*', type);

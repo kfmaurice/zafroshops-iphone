@@ -90,6 +90,7 @@ angular.module('starter.controllers', [])
 				});
 			});
 			
+		$scope.updatingHelpSetting = true;
 		Common.cache.load($cordovaFile, Common.cache.help, function(data) {
 			$scope.help.dontShowHelp = data.dontShowHelp;
 			Globals.dontShowHelp = data.dontShowHelp;
@@ -97,22 +98,22 @@ angular.module('starter.controllers', [])
 			if(!$scope.help.dontShowHelp) {
 				Common.showHelp($scope);
 			}
-			$scope.updating = false;
+			$scope.updatingHelpSetting = false;
 		}, function() {
 			$scope.help.dontShowHelp = false;
 			Common.showHelp($scope);
-			$scope.updating = false;
+			$scope.updatingHelpSetting = false;
 		});
 	});
 	
 	$scope.toggleHelp = function() {
+		$scope.updatingHelpSetting = true;
 		Common.cache.save($cordovaFile, Common.cache.help, $scope.help, function(data) {
 			Globals.dontShowHelp = data.dontShowHelp;
-			$scope.help.dontShowHelp = data.dontShowHelp;
 			
-			$scope.updating = false;
+			$scope.updatingHelpSetting = false;
 		}, function() {
-			$scope.updating = false;
+			$scope.updatingHelpSetting = false;
 		});
 	};
 		
@@ -534,6 +535,7 @@ angular.module('starter.controllers', [])
 	$scope.title = 'Settings';
 	$scope.adsInactive = !Globals.adsFlag;
 	$scope.location = { useLocation: Globals.useLocation };
+	$scope.help = { dontShowHelp: Globals.dontShowHelp };
 	
 	$scope.back = function() {
 		$state.go($stateParams.back);
@@ -574,13 +576,23 @@ angular.module('starter.controllers', [])
 		});
 	}
 	
+	$scope.toggleHelp = function() {
+		$scope.updatingHelpSetting = true;
+		Common.cache.save($cordovaFile, Common.cache.help, $scope.help, function(data) {
+			Globals.dontShowHelp = data.dontShowHelp;
+			
+			$scope.updatingHelpSetting = false;
+		}, function() {
+			$scope.updatingHelpSetting = false;
+		});
+	};
+	
 	$scope.showHelp = function(){
 		Common.showHelp($scope);
 	};
 	
 	document.addEventListener('deviceready', function () {
 		$scope.updatingLocationSetting = true;
-		$scope.updatingHelpSetting = true;
 		
 		Common.cache.load($cordovaFile, Common.cache.location, function(data) {
 			$scope.location.useLocation = data.useLocation;
@@ -589,6 +601,21 @@ angular.module('starter.controllers', [])
 		}, function() {
 			$scope.location.useLocation = true;
 			$scope.updatingLocationSetting = false;
+		});
+		
+		$scope.updatingHelpSetting = true;
+		Common.cache.load($cordovaFile, Common.cache.help, function(data) {
+			$scope.help.dontShowHelp = data.dontShowHelp;
+			Globals.dontShowHelp = data.dontShowHelp;
+			
+			if(!$scope.help.dontShowHelp) {
+				Common.showHelp($scope);
+			}
+			$scope.updatingHelpSetting = false;
+		}, function() {
+			$scope.help.dontShowHelp = false;
+			Common.showHelp($scope);
+			$scope.updatingHelpSetting = false;
 		});
 	});
 });
