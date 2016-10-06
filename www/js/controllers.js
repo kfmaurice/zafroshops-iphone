@@ -421,7 +421,7 @@ angular.module('starter.controllers', [])
 	$scope.setAddress = function() {
 		for(var i = 0; i < $scope.countries.length; i++) {
 			if($scope.countries[i].id == $scope.address.country) {
-				$scope.country = $scope.countries[i];
+				$scope.post.countryID = $scope.countries[i].id;
 				break;
 			}
 		}
@@ -469,6 +469,18 @@ angular.module('starter.controllers', [])
 		}
 	};
 	
+	$scope.getPhoneCode = function() {
+		if($scope.post.countryID) {
+			for(var i = 0; i < $scope.countries.length; i++) {
+				if($scope.countries[i].id == $scope.post.countryID) {
+					return $scope.countries[i].phoneCode;
+				}
+			}
+			
+			return '';
+		}
+	};
+	
 	$scope.submit = function() {
 	
 	try {
@@ -494,6 +506,7 @@ angular.module('starter.controllers', [])
 				});
 				
 				$ionicLoading.hide();
+				$scope.failure = false;
 				Common.showMessage(Constants.zop_success);
 				$scope.form.$setPristine();
 			}
@@ -504,6 +517,8 @@ angular.module('starter.controllers', [])
 			}
 		},
 		function(error) {
+			$ionicLoading.hide();
+			$ionicScrollDelegate.scrollTop();
 			$scope.$apply(function() {
 				$scope.error = error.message;
 			});
@@ -522,7 +537,6 @@ angular.module('starter.controllers', [])
 	};
 	
 	// run
-	$scope.country = null;
 	$scope.post = {};
 	$scope.oDay = null;
 	$scope.sTime = null;
