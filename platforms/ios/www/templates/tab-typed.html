@@ -4,11 +4,13 @@
 	</ion-nav-buttons>
 	
   <ion-content>
+		<ion-refresher pulling-text="pull to refresh..." on-refresh="refresh(true)"></ion-refresher>
+		
 		<div class="no-zops padding positive" ng-show="noZops">
 			<span>{{noZopsMessage}}</span>
 			<button class="button button-positive icon-left ion-ios-plus" ng-click="goAddZop()">{{noZopsAdd}}</button>
 		</div>
-    <ion-list>
+    <ion-list ng-hide="noZops">
       <ion-item class="typed item-icon-right item-thumbnail-left" type="item-text-wrap" href="#/tab/{{prefix}}/detail/{{zop.id}}"
 				ng-repeat="zop in typedZops">
         <img ng-src="img/{{zop.icon}}.png" class="zop-img" style="">

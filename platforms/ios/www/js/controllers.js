@@ -146,19 +146,28 @@ angular.module('starter.controllers', [])
 		$ionicLoading.show({ template: Constants.load_loading });
 		Zops.getTyped($stateParams.typeName).done(function(data) {
 			$scope.$apply(function() {
-				
-				$scope.typedZops = data.filter(function(zop) {
-					return zop.type == $stateParams.typeName && (Globals.countryId ? Globals.countryId === zop.countryID : true);
+				$scope.typedZops = data.result.filter(function(zop) {
+					return zop.type == $stateParams.typeName && (Globals.countryId ? Globals.countryId == zop.countryID : true);
 				});
-				Common.decorate($scope.typedZops, Globals.useLocation);
-				if(callback) {
-					callback.call(this, $scope.typedZops);
+				
+				if($scope.typedZops.length > 0) {
+					Common.decorate($scope.typedZops, Globals.useLocation);
+					if(callback) {
+						callback.call(this, $scope.typedZops);
+					}
 				}
+				else {
+					$scope.noZopsMessage = $scope.noZopsMessage.replace('*', '"' + Common.formatType($stateParams.typeName + '"'));
+					$scope.noZops = true;
+				}
+				
 				$ionicLoading.hide();
 			});
+			$scope.$broadcast('scroll.refreshComplete');
 		},
 		function(error) {
 			$ionicLoading.hide();
+			$scope.$broadcast('scroll.refreshComplete');
 			$scope.$apply(function() {
 				$scope.error = error.message;
 			});
@@ -166,10 +175,9 @@ angular.module('starter.controllers', [])
 	};
 	
 	$scope.refresh = function(force) {
-		$ionicLoading.show({ template: Constants.load_loading });
-
+	try {
 		if(force) {
-			$ionicLoading.show({ template: Constants.load_refreshing_location })
+			$ionicLoading.show({ template: Constants.load_refreshing_location });
 			Common.updateLocation(Globals.useLocation, function() {
 				$ionicLoading.hide();
 				$scope.load(function(data) {
@@ -178,13 +186,18 @@ angular.module('starter.controllers', [])
 			},
 			function(error) {
 				$ionicLoading.hide();
+				$scope.$broadcast('scroll.refreshComplete');
 			});
 		}
 		else {
+			$ionicLoading.show({ template: Constants.load_loading });
 			$scope.load(function(data) {
 				Common.cache.save($cordovaFile, filename, data);
 			});
 		}
+	} catch(e) {
+		Common.showMessage(e);
+	}
 	};
 	
 	// cache and local logic
@@ -200,6 +213,7 @@ angular.module('starter.controllers', [])
 						});
 						Common.decorate($scope.typedZops, Globals.useLocation);
 					} else {
+						$scope.noZopsMessage = $scope.noZopsMessage.replace('*', '"' + Common.formatType($stateParams.typeName + '"'));
 						$scope.noZops = true;
 					}
 					
@@ -223,6 +237,7 @@ angular.module('starter.controllers', [])
 						$scope.typedZops = temp;
 						Common.decorate($scope.typedZops, Globals.useLocation);
 					} else {
+						$scope.noZopsMessage = $scope.noZopsMessage.replace('*', '"' + Common.formatType($stateParams.typeName + '"'));
 						$scope.noZops = true;
 					}
 					
@@ -262,6 +277,7 @@ angular.module('starter.controllers', [])
 					$ionicLoading.hide();
 				});
 			} else {
+				$scope.noZopsMessage = $scope.noZopsMessage.replace('*', 'zops');
 				$scope.noZops = true;
 			}
 		},

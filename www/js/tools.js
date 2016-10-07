@@ -29,7 +29,7 @@ angular.module('starter.tools', [])
 	load_sending: 'sending data...',
 	
 	push_message: 'New zops available',
-	no_zops_message: 'There seem to be no zops for your country',
+	no_zops_message: 'There seem to be no * listed for your country',
 	no_zops_add: 'Add a Zop',
 	
 	failed: 'Oh, something wrong happened :-(',

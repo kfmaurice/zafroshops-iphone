@@ -110,6 +110,8 @@ ion-content .no-zops {
 	margin-top: 150px;
 }
 ion-content .no-zops span {
+	clear: both;
+	display: inline-block;
 	width: 100%;
 }
 ion-content .no-zops button {

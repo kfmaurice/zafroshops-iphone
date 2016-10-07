@@ -22,5 +22,5 @@ angular.module('starter.keys', [])
 //	azureSite: 'http://localhost:8100/ms',
 	azureSite: 'http://172.163.154.22:59230',
 	azureKey: '',
-	googleApiKey: ''
+	googleApiKey: 'AIzaSyDLKPjFf8EWIQMAfHcfwMGbDcJXgKUvRtk'
 });
