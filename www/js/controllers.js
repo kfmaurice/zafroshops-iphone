@@ -269,6 +269,9 @@ angular.module('starter.controllers', [])
 	});
 	
 	$scope.get = function() {
+		$ionicLoading.hide();
+		$ionicLoading.show({ template: Constants.load_loading });
+		
 		Zops.getNearest().done(function(data) {
 			if(data && data.result.length > 0) {
 				$scope.$apply(function() {
@@ -280,9 +283,13 @@ angular.module('starter.controllers', [])
 				$scope.noZopsMessage = $scope.noZopsMessage.replace('*', 'zops');
 				$scope.noZops = true;
 			}
+			
+			$ionicLoading.hide();
+			$scope.$broadcast('scroll.refreshComplete');
 		},
 		function(error) {
 			$ionicLoading.hide();
+			$scope.$broadcast('scroll.refreshComplete');
 			$scope.$apply(function() {
 				$scope.error = error.message;
 			});
@@ -290,16 +297,19 @@ angular.module('starter.controllers', [])
 	};
 	
 	$scope.refresh = function(force) {
-		$ionicLoading.show({ template: Constants.load_loading });
-		
 		if(force) {
 			$ionicLoading.show({ template: Constants.load_refreshing_location })
 			Common.updateLocation(Globals.useLocation, function() {
 				$ionicLoading.hide();
 				$scope.get();
+			},
+			function(error) {
+				$ionicLoading.hide();
+				$scope.$broadcast('scroll.refreshComplete');
 			});
 		}
 		else {
+			$ionicLoading.show({ template: Constants.load_loading });
 			$scope.get();
 		}
 	};
