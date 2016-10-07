@@ -136,6 +136,7 @@ angular.module('starter.controllers', [])
 	$scope.useLocation = Globals.useLocation;
 	$scope.noZopsMessage = Constants.no_zops_message;
 	$scope.noZopsAdd = Constants.no_zops_add;
+	$scope.noZops = false;
 	
 	$scope.goAddZop = function() {
 		$state.go('tab.new');
@@ -151,6 +152,7 @@ angular.module('starter.controllers', [])
 				});
 				
 				if($scope.typedZops.length > 0) {
+					$scope.noZops = false;
 					Common.decorate($scope.typedZops, Globals.useLocation);
 					if(callback) {
 						callback.call(this, $scope.typedZops);
@@ -160,9 +162,9 @@ angular.module('starter.controllers', [])
 					$scope.noZopsMessage = $scope.noZopsMessage.replace('*', '"' + Common.formatType($stateParams.typeName + '"'));
 					$scope.noZops = true;
 				}
-				
-				$ionicLoading.hide();
 			});
+			
+			$ionicLoading.hide();
 			$scope.$broadcast('scroll.refreshComplete');
 		},
 		function(error) {
@@ -175,7 +177,6 @@ angular.module('starter.controllers', [])
 	};
 	
 	$scope.refresh = function(force) {
-	try {
 		if(force) {
 			$ionicLoading.show({ template: Constants.load_refreshing_location });
 			Common.updateLocation(Globals.useLocation, function() {
@@ -195,9 +196,6 @@ angular.module('starter.controllers', [])
 				Common.cache.save($cordovaFile, filename, data);
 			});
 		}
-	} catch(e) {
-		Common.showMessage(e);
-	}
 	};
 	
 	// cache and local logic
@@ -207,10 +205,13 @@ angular.module('starter.controllers', [])
 				// load file
 				$ionicLoading.show({ template: Constants.load_loading });
 				Common.cache.load($cordovaFile, filename, function(data) {
+
 					if(data && data.length > 0) {
+						$scope.noZops = false;
 						$scope.typedZops = data.filter(function(zop) {
-							return zop.type == $stateParams.typeName && (Globals.countryId ? Globals.countryId === zop.countryID : true);
+							return zop.type == $stateParams.typeName && (Globals.countryId ? Globals.countryId == zop.countryID : true);
 						});
+						
 						Common.decorate($scope.typedZops, Globals.useLocation);
 					} else {
 						$scope.noZopsMessage = $scope.noZopsMessage.replace('*', '"' + Common.formatType($stateParams.typeName + '"'));
@@ -228,12 +229,14 @@ angular.module('starter.controllers', [])
 			function (error) { // else
 				// load local file
 				$ionicLoading.show({ template: Constants.load_loading });
-				$http.get('json/zops.json').success(function(data){
+				$http.get('json/zops.json').success(function(data) {
+
 					var temp = data.filter(function(zop) {
-						return zop.type == $stateParams.typeName && (Globals.countryId ? Globals.countryId === zop.countryID : true);
+						return zop.type == $stateParams.typeName && (Globals.countryId ? Globals.countryId == zop.countryID : true);
 					});
 					
 					if(temp && temp.length > 0) {
+						$scope.noZops = false;
 						$scope.typedZops = temp;
 						Common.decorate($scope.typedZops, Globals.useLocation);
 					} else {
@@ -259,6 +262,7 @@ angular.module('starter.controllers', [])
 	$scope.longitude = Globals.longitude;
 	$scope.noZopsMessage = Constants.no_zops_message;
 	$scope.noZopsAdd = Constants.no_zops_add;
+	$scope.noZops = false;
 	
 	$scope.goAddZop = function() {
 		$state.go('tab.new');
@@ -275,6 +279,7 @@ angular.module('starter.controllers', [])
 		Zops.getNearest().done(function(data) {
 			if(data && data.result.length > 0) {
 				$scope.$apply(function() {
+					$scope.noZops = false;
 					$scope.typedZops = data.result;
 					Common.decorate($scope.typedZops, Globals.useLocation);
 					$ionicLoading.hide();
@@ -431,6 +436,7 @@ angular.module('starter.controllers', [])
 	};
 	
 	$scope.updateAddress = function() {
+	try {
 		if(Globals.useLocation) {
 			Common.getAddress(Globals.latitude, Globals.longitude)
 				.success(function(data, status, headers, config) {
@@ -442,6 +448,9 @@ angular.module('starter.controllers', [])
 				.error(function(data, status, headers, config) {
 				});
 		}
+	} catch(e) {
+		Common.showMessage(e);
+	}
 	};
 	
 	$scope.setAddress = function() {
@@ -508,9 +517,6 @@ angular.module('starter.controllers', [])
 	};
 	
 	$scope.submit = function() {
-	
-	try {
-	
 		$scope.post.openingHours = [];
 		for(var i = 0; i < $scope.openings.length; i++) {
 			for(var j = 0; j < $scope.openings[i].hours.length; j++) {
@@ -550,12 +556,6 @@ angular.module('starter.controllers', [])
 			});
 			Common.showMessage(Constants.failed);
 		});
-	}
-	
-	catch(error) {
-	Common.showMessage(error);
-	}
-	
 	};
 	
 	$scope.showSettings = function() {
