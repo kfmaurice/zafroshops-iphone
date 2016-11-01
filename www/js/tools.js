@@ -442,9 +442,9 @@ angular.module('starter.tools', [])
 			}
 		},
 		
-		decorate: function(zops, useLocation) {
+		decorate: function(zops, useLocation, nearest) {
 			for(var i = 0; i < zops.length; i++) {
-				zops[i].icon = this.getRnd(1, 8);
+				zops[i].icon = nearest ? this.img(zops[i].type) : this.getRnd(1, 8);
 				
 				if(useLocation) {
 					var location = zops[i].location;

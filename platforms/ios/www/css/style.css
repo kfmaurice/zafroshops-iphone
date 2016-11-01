@@ -119,6 +119,7 @@ ion-content .no-zops button {
 }
 ion-content ion-item .zop-img {
 	height: 55%;
+	width: 20%;
 	line-height: 10%;
 	position: absolute;
 	top: 20%;
