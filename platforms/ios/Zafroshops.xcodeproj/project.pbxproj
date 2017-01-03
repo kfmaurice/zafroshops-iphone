@@ -35,10 +35,11 @@
 		30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
 		3EB7538D0E93414BA29195FE /* SKProduct+LocalizedPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE311D2D4B045A3AEB6F79E /* SKProduct+LocalizedPrice.m */; };
 		433EAF70634B4BA49396F744 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502623CBFCDC453290A11FC8 /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		47A9C4DE1C194A0F82790C6F /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD75D448A994CCBB56A4BB6 /* CDVLocalFilesystem.m */; };
 		47E7832453B54C5DAAAB67A5 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 604795F1622A489FA077D8F1 /* CDVSplashScreen.m */; };
 		4C51C46D4FE646249BEE11A7 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7AA9C679544C2AAAC1EE1F /* CDVStatusBar.m */; };
 		501C62FC261244958D3EBBE6 /* AdMobMediation.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9465A8B44640BC99012C7C /* AdMobMediation.m */; };
+		5100E7941E1C67E300E2633F /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90101CEC1442FBAEFA9678 /* CDVFile.m */; };
+		5100E7951E1C67E300E2633F /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD75D448A994CCBB56A4BB6 /* CDVLocalFilesystem.m */; };
 		52E351F4B524437B80B3A619 /* libCordovaGenericAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B1C3EF8C564593BB81DA9D /* libCordovaGenericAd.a */; };
 		53B9F73D34EC4FD1B9B0536C /* LaunchNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = AE102A414B5746A89192F61D /* LaunchNavigator.m */; };
 		588C38CA1B984067AA1A030B /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9C0FF2998A40DB9B465DB0 /* CDVDevice.m */; };
@@ -79,7 +80,6 @@
 		DB5652BEA00046D7BF42B001 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB855E1B606F4D1D8A80DC64 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E374ECE5E9784A8FB7857C34 /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EA9B1CD88F40B2A00FA29F /* CDVAssetLibraryFilesystem.m */; };
 		EB641178FEB4431D941A2E51 /* InAppPurchase.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE98B3F53B44DDA852069A /* InAppPurchase.m */; };
-		EE140695ACBE4105B24076FC /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90101CEC1442FBAEFA9678 /* CDVFile.m */; };
 		F5BE931E18004007B4715EA8 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF01DEC168C54ED9AEF46A0D /* EventKitUI.framework */; };
 /* End PBXBuildFile section */
 
@@ -589,6 +589,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5100E7941E1C67E300E2633F /* CDVFile.m in Sources */,
+				5100E7951E1C67E300E2633F /* CDVLocalFilesystem.m in Sources */,
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
@@ -613,8 +615,6 @@
 				3EB7538D0E93414BA29195FE /* SKProduct+LocalizedPrice.m in Sources */,
 				B0B0CCBA7B73480A99D3EE9F /* FileUtility.m in Sources */,
 				4C51C46D4FE646249BEE11A7 /* CDVStatusBar.m in Sources */,
-				EE140695ACBE4105B24076FC /* CDVFile.m in Sources */,
-				47A9C4DE1C194A0F82790C6F /* CDVLocalFilesystem.m in Sources */,
 				E374ECE5E9784A8FB7857C34 /* CDVAssetLibraryFilesystem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -746,7 +746,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -797,7 +797,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
