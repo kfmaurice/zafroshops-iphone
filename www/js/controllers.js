@@ -281,7 +281,7 @@ angular.module('starter.controllers', [])
 				$scope.$apply(function() {
 					$scope.noZops = false;
 					$scope.typedZops = data.result;
-					Common.decorate($scope.typedZops, Globals.useLocation);
+					Common.decorate($scope.typedZops, Globals.useLocation, true);
 					$ionicLoading.hide();
 				});
 			} else {
