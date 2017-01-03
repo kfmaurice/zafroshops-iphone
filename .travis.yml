@@ -1,4 +1,3 @@
 language: objective-c
-xcode_project: platforms/ios/Zafroshops.xcodeproj
 osx_image: xcode8.1
 
