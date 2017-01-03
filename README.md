@@ -1,4 +1,6 @@
 # zafroshops-iphone
+[![Build Status](https://travis-ci.org/kfmaurice/zafroshops-iphone.svg?branch=master)](https://travis-ci.org/kfmaurice/zafroshops-iphone)
+
 This repository contains the code to the iPhone application for the Zafroshops project.
 
 <img src="https://raw.githubusercontent.com/kfmaurice/zafroshops-media/master/Images/IPhone/i4s_1.png" width="49%" /> <img src="https://raw.githubusercontent.com/kfmaurice/zafroshops-media/master/Images/IPhone/i4s_4.png" width="49%" />
