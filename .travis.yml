@@ -2,4 +2,5 @@ language: objective-c
 xcode_project: platforms/ios/Zafroshops.xcodeproj
 xcode_scheme: Zafroshops
 osx_image: xcode8.1
+xcode_sdk: iphonesimulator6.0
 
